@@ -1,47 +1,41 @@
-<!-- The App.vue is what main.ts instatiates -->
 
 <template>
   <div id="app"> <!-- div tab divides sections in html-->
-    <div id="nav">
-      <router-link to="/">Home</router-link> 
-    </div>
-    <router-view/>
+  <!-- <navigation/>  -->
+  
+    <router-view/> 
   </div>
+
 </template>
 
 <script>
+// import navigation from '@/components/navigation.vue'
+// import projectcards from '@/components/projectcards.vue'
+// import about from '@/components/about.vue'
+// import timeline from '@/components/timeline.vue'
+// import contact from '@/components/contact.vue'
+
 export default {
   name: "App",
   components: {
-
+    // navigation
   }
 }
-</script>>
+</script>
 
 
-<style>
+<style scoped>
 
 
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
+    /* text-align: center; */
     color: #2c3e50;
+    background-color: #f7ede2;
   }
-  
-  #nav {
-    padding: 30px;
-  }
-  
-  #nav a {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  #nav a.router-link-exact-active {
-    color: #42b983;
-  }
+ 
 
 
 </style>
