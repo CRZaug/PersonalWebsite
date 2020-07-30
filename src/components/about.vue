@@ -77,7 +77,8 @@ list-style-type:none;
 .about {
     display: flex;
     justify-content: center;
-    flex:wrap;
+    align-items: center;
+    flex: wrap;
     margin-bottom: 10em;
 }
 
@@ -87,6 +88,7 @@ list-style-type:none;
     justify-content: center;
     width:100%;
     padding: 2em;
+    border-radius: 6px;
 }
 
 .bullets {
@@ -95,9 +97,12 @@ list-style-type:none;
     padding-right: 10%;
 }
 .paragraph {
+    /* height: 80%; */
     background-color: #84a59d;
     max-height:100%;
     color: #f7ede2;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .aboutA, .bulletA{

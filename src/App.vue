@@ -24,7 +24,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 
 
 #app {
@@ -36,6 +36,9 @@ export default {
     background-color: #f7ede2;
   }
  
+ html {
+  scroll-behavior: smooth;
+}
 
 
 </style>
