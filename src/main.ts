@@ -12,9 +12,22 @@ import {BootstrapVue, IconsPlugin} from "bootstrap-vue"
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+// IDK what I am doing, but this is supposed to give me smooth scroll
+// import VueSmoothScroll from 'vue2-smooth-scroll'
+
+// Jquery instead
+import $ from 'jquery'
+
 // I did this
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+
+
+// Smooth scroll
+// Vue.use(VueSmoothScroll, {
+//   duration: 400,
+//   updateHistory: false,
+// })
 
 
 // They did this
@@ -25,3 +38,5 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+
+

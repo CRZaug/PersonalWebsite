@@ -1,11 +1,29 @@
 <template>
-  <div class="home">
+
+  <div class="home" data-spy="scroll" data-target=".navbar" data-offset="50">
     <navigation/>
-  <intro/>
-  <about/>
-  <projectcards/>
-  <timeline/>
-   <contact/>
+
+  <a href = "#about" v-smooth-scroll> go to abt </a>
+
+    <section id = "intro">
+      <intro/>
+    </section>
+
+    <section id ="about">
+      <about/>
+    </section>
+
+    <section id = "projectcards">
+        <projectcards/>
+      </section>
+
+    <section id = "timeline">
+      <timeline/>
+    </section>
+
+    <section id = "contact">
+      <contact/>
+    </section>
   
     <router-view/> 
   </div>

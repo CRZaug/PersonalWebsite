@@ -3,8 +3,25 @@
 <template>
 <body>
     <div class = "c">
-                <h3> Looking for opportunites Summer 2021! </h3>
-    <div class = "timeline">
+      <div id ="opportunity">
+          <div class ="opportunity-content">
+              <h4>Looking for opportunities summer 2021!</h4>
+                  <p>
+                        I am interested in data science, AI, and software engineering.
+
+                    <br>
+                    <br>
+                        Want to know more about my professional experience? Check out my resume!
+                  </p>
+            </div>
+              <div class = triangle-container><div class = "triangle"></div></div>
+
+          </div>
+
+          
+           
+
+          <div class = "timeline">
             <div class = "colA">
                 <div class = "tlcontainer tlA">
                     <div class = "content">
@@ -39,24 +56,13 @@
                 </div>    
             </div>
 
-             <div class = "tlcontainer tlA">
-                <div class = "content">
-                <h4>Lawrence Livermore National Laboratory Summer students</h4>
-                <p> Conducting research in materials science provided my first experience Conducting
-                    
-
-                    <br>
-                    <br>
-
-                    Starting at hopelessly complicated image processing scripts in MATLAB and learning Python was so worth it.
-                     </p>
-                </div>
-            </div>
+             
 
 
             </div>
 
             <div class = "colB">
+                
 
                 <div class = "tlcontainer tlB">
                     <div class = "content">
@@ -93,6 +99,20 @@
                     </div>
                 </div>
 
+              <div class = "tlcontainer tlB">
+                <div class = "content">
+                <h4>Lawrence Livermore National Laboratory Intern</h4>
+                <p> Conducting research in materials science provided my first experience Conducting
+                    
+
+                    <br>
+                    <br>
+
+                    Starting at hopelessly complicated image processing scripts in MATLAB and learning Python was so worth it.
+                     </p>
+                </div>
+            </div>
+
             </div>
            
         
@@ -115,6 +135,7 @@ h3 {
     background-color: #f6bd60;
     margin-bottom: 10em;
     box-sizing: border-box;
+    padding-top: 1em;
 
 }
 
@@ -142,7 +163,6 @@ h3 {
 
 /* Container around content */
 .tlcontainer {
-
     position: relative;
     background-color: inherit;
     width: 80%;
@@ -169,13 +189,18 @@ h3 {
     margin-right: auto;
 }
 
+.colA{
+  margin-top: 7em;
+}
+
 .tlA {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     left: 20%;
 }
 
 .tlB {
-    margin-top: 5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
 }
 
 .tlB::after {
@@ -221,38 +246,78 @@ h3 {
 
 
 
+.opportunity-content {
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 3em;
+  background-color: #f5cac3;
+  border-radius: 6px;
+  max-width: 600px;
+  /* margin-bottom: 1em; */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.triangle-container{
+  width: 5px;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  margin-left: -15px;
+  padding-bottom: 1em;
+}
+
+.triangle{
+  text-align: center;
+  width: 0;
+  z-index: 1;
+  border: medium solid white;
+  border-width: 20px 20px 0px 20px;
+  border-color: #f5cac3 transparent transparent transparent;
+
+
+}
+
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-/* Place the timelime to the left */
-  .timeline::after {
-    left: 31px;
-  }
+@media screen and (max-width: 640px) {
 
 /* Full-width containers */
   .tlcontainer {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-/* Make sure that all arrows are pointing leftwards */
-  .tlcontainer::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-
-/* Make sure all circles are at the same spot */
-  .tlA::after, .tlB::after {
-    left: 15px;
-  }
-
-/* Make all right containers behave like the left ones */
-  .right {
-    left: 0%;
+    padding: 0;
+    margin:0;
+    
   }
 }
+
+.colA::after{
+  padding:0px;
+  margin-left:0px;
+}
+
+.colB::after{
+  padding:0px;
+  margin-right:0px;
+}
+
+.tlA::after{
+  padding:0px;
+  margin-right:0px;
+}
+
+.tlB::after{
+  padding:0px;
+  margin-left:0px;
+}
+
+.content::after{
+  margin: 0px;
+
+}
+
+
 
 
 </style>

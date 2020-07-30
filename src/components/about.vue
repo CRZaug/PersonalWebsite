@@ -77,6 +77,7 @@ list-style-type:none;
 .about {
     display: flex;
     justify-content: center;
+    flex:wrap;
     margin-bottom: 10em;
 }
 

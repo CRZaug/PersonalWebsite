@@ -2,7 +2,7 @@
 <template>
   <div id="app"> <!-- div tab divides sections in html-->
   <!-- <navigation/>  -->
-  
+    
     <router-view/> 
   </div>
 
