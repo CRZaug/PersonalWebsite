@@ -9,11 +9,7 @@
 </template>
 
 <script>
-// import navigation from '@/components/navigation.vue'
-// import projectcards from '@/components/projectcards.vue'
-// import about from '@/components/about.vue'
-// import timeline from '@/components/timeline.vue'
-// import contact from '@/components/contact.vue'
+
 
 export default {
   name: "App",
@@ -21,6 +17,7 @@ export default {
     // navigation
   }
 }
+
 </script>
 
 
@@ -32,8 +29,8 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* text-align: center; */
-    color: #2c3e50;
-    background-color: #f7ede2;
+    color: #4e323d;
+    background-color:  #f2eee6;
   }
  
  html {

@@ -4,9 +4,7 @@
   <b-card-group deck>
     <b-card 
       title="ML with Kaggle"
-      img-src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"
-      img-alt="Image"
-      img-top
+    
       tag="article"
       style="max-width: 20rem;"
       class="mb-2"
@@ -19,9 +17,6 @@
 
     <b-card
       title="Glitch-based Personality Quiz"
-      img-src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-sunset.svg"
-      img-alt="Image"
-      img-top
       tag="article"
       style="max-width: 20rem;"
       class="mb-2"
@@ -34,24 +29,22 @@
  
     <b-card
       title="Toy CS Problems"
-      img-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
-      img-alt="Image"
-      img-top
+
       tag="article"
       style="max-width: 20rem;"
       class="mb-2"
       id = "card3"
     >
+    <button>
       <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
 
       <b-button href="#" variant="primary">Go somewhere</b-button>
+      </button>
     </b-card>
 
     <b-card
       title="PUBLICATIONS"
-      img-src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Seattle_University_seal.svg/1200px-Seattle_University_seal.svg.png"
-      img-alt="Image"
-      img-top
+     
       tag="article"
       style="max-width: 20rem;"
       class="mb-2"
@@ -70,21 +63,54 @@
 body {
   padding-left: 3em;
   padding-right: 3em;
-
   margin-bottom: 10em;
+  background-color: #f2eee6;
 }
+
+body:before {
+    content:'';
+    display:block;
+    position: relative;
+    width:0;
+    height:5em;
+    margin-top:-5em;
+
+}
+
+#card1, #card2, #card3, #card4 {
+  padding: 1%;
+  width: 100%;
+}
+
+
 
 #card1 {
-    background-color: #f28482;
+  height: 400px;
+  background-position: center;
+  border: 4px solid #d54325;
+  background-color: #693338;
+  color: #f2eee6;
+  transition: 0.4s;
     
 }
+
+button {
+  background-color: #d54325;
+  transition: 0.4s;
+}
+
+#button:hover{
+  background-color: black;
+}
+
 #card2 {
-    background-color: #84a59d;
+    background-color: #e9c0b0;
 }
 #card3 {
-    background-color: #f6bd60;
+    background-color: #4e323d;
+    color: #f2eee6;
 }
 #card4 {
-    background-color: #f5cac3;
+    background-color: #d8746a;
 }
 </style>

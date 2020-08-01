@@ -1,9 +1,10 @@
 <template>
-
+<body>
     <div class = "about">
 
         <div class = "paragraph">
-            <div>
+    
+            <div id="p-card">
             <h2> A little about me </h2>
 
             <div class = "aboutA">
@@ -14,6 +15,7 @@
                 💯 Applied mathematics graduate student at UW fall 2020
             </div>
                 </div>
+           
 
         
         </div>
@@ -58,7 +60,7 @@
 
         </div>
     </div>
-
+</body>
 </template>
 
 <style scoped>
@@ -66,6 +68,19 @@
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: #f2eee6;
+}
+
+body:before {
+    content:'';
+    display:block;
+    position: relative;
+    width:0;
+    height:5em;
+    margin-top:-5em;
 }
 
 ul {
@@ -82,28 +97,44 @@ list-style-type:none;
     margin-bottom: 10em;
 }
 
+
+
 .bullets, .paragraph {
     display:flex;
     flex-direction: column;
     justify-content: center;
     width:100%;
     padding: 2em;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .bullets {
-    background-color: #f5cac3;
+    /* position: relative; */
+    background-color: #e9c0b0;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 15%;
+    border-left: 8px solid #693338;
+
+
 }
 .paragraph {
+    position: relative;
     /* height: 80%; */
-    background-color: #84a59d;
+    margin-left:1.5em;
+    margin-right: 1.5em;
     max-height:100%;
-    color: #f7ede2;
     padding-top: 10%;
     padding-bottom: 10%;
+    border-top: 8px solid #d54325;
+    border-left: 8px solid #d54325;
+    box-shadow: 3px 3px 8px #4e323d;
+    background-color:  #f2eee6;
+    left: 5%;
 }
+
+
+
+
 
 .aboutA, .bulletA{
     /* width: 80%; */
@@ -120,6 +151,8 @@ list-style-type:none;
     flex-basis: 80%;
 
 }
+
+
 
 </style>
 

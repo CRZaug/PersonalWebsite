@@ -5,7 +5,7 @@
     <div class = "c">
       <div id ="opportunity">
           <div class ="opportunity-content">
-              <h4>Looking for opportunities summer 2021!</h4>
+              <h3>Looking for opportunities summer 2021!</h3>
                   <p>
                         I am interested in data science, AI, and software engineering.
 
@@ -24,8 +24,8 @@
           <div class = "timeline">
             <div class = "colA">
                 <div class = "tlcontainer tlA">
-                    <div class = "content">
-                    <h4>Intern at Creative Creek</h4>
+                    <div class = "content A">
+                    <h4>Creative Creek</h4>
                     <p>Dipping my toes into software engineering and design
                         <br>
                         <br>
@@ -35,7 +35,7 @@
             </div>
 
             <div class = "tlcontainer tlA">
-                <div class = "content">
+                <div class = "content A">
                 <h4>Seattle University Grad</h4>
                 <p>I graduated summa cum laude with a dual degree!
                     <br>
@@ -46,7 +46,7 @@
             </div>
 
             <div class = "tlcontainer tlA">
-                <div class = "content">
+                <div class = "content A">
                 <h4>Applied Math Research Assistant at Seattle University</h4>
                 <p> I studied nonlinear waves and the propagation of swell across the Pacific ocean
                     <br>
@@ -56,51 +56,8 @@
                 </div>    
             </div>
 
-             
-
-
-            </div>
-
-            <div class = "colB">
-                
-
-                <div class = "tlcontainer tlB">
-                    <div class = "content">
-                    <h4>Instructor at Girls Who Code</h4>
-                    <p>Combing my passions of equitable equcation and STEM
-                        <br>
-                        <br>
-                        Teaching over 310 young women HTML, CSS, and Javascript while building virtual classroom culture
-
-                    </p>
-                    </div>
-                </div>
-                
-                <div class = "tlcontainer tlB">
-                    <div class = "content">
-                    <h4>First Publication</h4>
-                    <p>During the winter and spring of 2019, I conducted research developing precision instruments for physics lab students
-                        
-                        <br>
-                        <br>
-                        Check out the result here!
-                         </p>
-                    </div>    
-                </div>
-                
-                <div class = "tlcontainer tlB">
-                    <div class = "content">
-                    <h4>Team Lead with Seattle University Mathematics Corps</h4>
-                    <p>Provided support to students at Bailey Gatzert Elementary School
-                    <br>
-                    <br>
-                    Worked in classrooms and ran an after school program. Created the SUM corps website! Found here:
-                    </p>
-                    </div>
-                </div>
-
-              <div class = "tlcontainer tlB">
-                <div class = "content">
+             <div class = "tlcontainer tlA">
+                <div class = "content A">
                 <h4>Lawrence Livermore National Laboratory Intern</h4>
                 <p> Conducting research in materials science provided my first experience Conducting
                     
@@ -113,10 +70,59 @@
                 </div>
             </div>
 
+
+            </div>
+
+            <div class = "colB">
+                
+
+                <div class = "tlcontainer tlB">
+                    <div class = "content B">
+                    <h4>Instructor at Girls Who Code</h4>
+                    <p>Combing my passions of equitable equcation and STEM
+                        <br>
+                        <br>
+                        Teaching over 310 young women HTML, CSS, and Javascript while building virtual classroom culture
+
+                    </p>
+                    </div>
+                </div>
+                
+                <div class = "tlcontainer tlB">
+                    <div class = "content B">
+                    <h4>First Publication</h4>
+                    <p>During the winter and spring of 2019, I conducted research developing precision instruments for physics lab students
+                        
+                        <br>
+                        <br>
+                        Check out the result here!
+                         </p>
+                    </div>    
+                </div>
+                
+                <div class = "tlcontainer tlB">
+                    <div class = "content B">
+                    <h4>Team Lead with Seattle University Mathematics Corps</h4>
+                    <p>Provided support to students at Bailey Gatzert Elementary School
+                    <br>
+                    <br>
+                    Worked in classrooms and ran an after school program. Created the SUM corps website! Found here:
+                    </p>
+                    </div>
+                </div>
+
+              
+
             </div>
            
         
 
+    </div>
+    <div class = "circle">
+    </div>
+    <div class = "circle">
+    </div>
+    <div class = "circle">
     </div>
     </div>
     
@@ -126,13 +132,28 @@
 
 <style scoped>
 
+body{
+  background-color: #f2eee6;
+}
+
+body:before {
+    content:'';
+    display:block;
+    position: relative;
+    width:0;
+    height:5em;
+    margin-top:-5em;
+
+}
+
 h3 {
     text-align: center;
+    color: #f2eee6;
 }
 
 /* The extensive styling for the timeline comes below */
 .c {
-    background-color: #f6bd60;
+    background-color: inherit;
     margin-bottom: 10em;
     box-sizing: border-box;
     padding-top: 1em;
@@ -149,15 +170,30 @@ h3 {
     flex-direction: row;
 }
 
-
+/* Timeline */
 .timeline::after{
     content: '';
     position: absolute;
     width: 8px;
-    background-color: #f7ede2;
+    background-color: #693338;
     top: 0;
     bottom: 0;
-    left: 50%;
+    left: 49.75%;
+}
+
+/* Circles after the timeline, dot dot dot*/
+.circle{
+  margin-top: 1em;
+  margin-left:auto;
+  margin-right:auto;
+  width: 10px;
+  height: 10px;
+  left: 2px;
+  top: 50px;
+  z-index: 1;
+  background-color: #693338;
+  border-radius: 50%;
+
 }
 
 
@@ -175,13 +211,14 @@ h3 {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
-  background-color: #f7ede2;
-  border: 4px solid #84a59d;
+  right: -14px;
+  background-color: #f2eee6;
+  border: 5px solid #d54325;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
+
 
 .colA, .colB {
     width: 600px; 
@@ -189,8 +226,8 @@ h3 {
     margin-right: auto;
 }
 
-.colA{
-  margin-top: 7em;
+.colB{
+  margin-top: 6em;
 }
 
 .tlA {
@@ -200,15 +237,42 @@ h3 {
 
 .tlB {
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 4em;
+    
 }
 
 .tlB::after {
-    left:-.5em;
+    left:-.7em;
+}
+
+/* Add cirles on right of left col of cards */
+.tlA::before {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 15px;
+  top: 21px;
+  z-index: 1;
+  background-color: #693338;
+  border-radius: 50%;
+}
+
+/* Add cirles on left of right col of cards */
+.tlB::before {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 20px;
+  top: 21px;
+  z-index: 1;
+  background-color: #693338;
+  border-radius: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
-.tlA::before {
+/* .tlA::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -216,13 +280,15 @@ h3 {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #f2eee6;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
+  border-color: transparent transparent transparent #f2eee6;
+}*/
+
+
 
 /* Add arrows to the right container (pointing left) */
-.tlB::before {
+/* .tlB::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -230,32 +296,47 @@ h3 {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #f2eee6;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
+  border-color: transparent #f2eee6 transparent transparent;
+}  */
 
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #f2eee6;
   position: relative;
   border-radius: 6px;
   margin: 2.5em;
 }
 
 
+.A {
+border-top: 5px solid #d54325;
+border-left: 5px solid #d54325;
+box-shadow: 3px 3px 8px #4e323d;
+}
+
+.B {
+border-bottom: 5px solid #d54325;
+border-right: 5px solid #d54325;
+box-shadow: 3px 3px 8px #4e323d;
+
+}
+
 
 .opportunity-content {
   text-align: center;
   padding: 20px 20px;
   margin-top: 3em;
-  background-color: #f5cac3;
+  background-color: #d8746a;
   border-radius: 6px;
   max-width: 600px;
   /* margin-bottom: 1em; */
   margin-left: auto;
   margin-right: auto;
+  color:  #f2eee6;
+  box-shadow: 3px 3px 8px #4e323d;
 
 }
 
@@ -263,7 +344,7 @@ h3 {
   width: 5px;
   position: relative;
   top: 0%;
-  left: 50%;
+  left: 49.75%;
   margin-left: -15px;
   padding-bottom: 1em;
 }
@@ -274,7 +355,8 @@ h3 {
   z-index: 1;
   border: medium solid white;
   border-width: 20px 20px 0px 20px;
-  border-color: #f5cac3 transparent transparent transparent;
+  border-color: #d8746a transparent transparent transparent;
+
 
 
 }
