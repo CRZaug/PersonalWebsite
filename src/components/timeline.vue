@@ -315,6 +315,7 @@ h3 {
 border-top: 5px solid #d54325;
 border-left: 5px solid #d54325;
 box-shadow: 3px 3px 8px #4e323d;
+
 }
 
 .B {

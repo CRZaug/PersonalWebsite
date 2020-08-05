@@ -1,10 +1,17 @@
 <template>
     <body>
         <div class = "content">
-        <h3> Say hello! </h3>
+            <h3> Say hello! </h3>
 
-        <p> There will be some links here in the future! </p>
+            <p> Connect with me on LinkedIn or see my résumé for my contact information. </p>
+            <div class = "linkedin">
+                <a href = "https://www.linkedin.com/in/crzaug/">
+                    <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" :style="{ color: '#f2eee6' }"/>
+                </a>
+            </div>
         </div>
+
+        
 
         <div class = "work">
             <h4> Want to see more of my work? </h4>
@@ -13,13 +20,37 @@
        
         </div>
 
-         <div class = "links">
-                <div id ="resume"> </div>
-                <div id ="github"> </div>
-                <div id ="glitch"> </div>
-                <div id ="arch"> </div>
 
-            </div>
+
+
+
+
+
+
+        <div class = "links">
+                <div class ="linkIcons">
+                        <a href="https://www.overleaf.com/">
+                            <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#4e323d' }" />
+                        </a>
+                </div>
+                    
+                <div class = "linkIcons"> 
+                    <a href="https://github.com/CRZaug">
+                        <font-awesome-icon :icon="['fab', 'github']" size="3x" :style="{ color: '#4e323d' }"/>
+                    </a>
+                </div>
+                <div class = "linkIcons"> 
+                    <a href="https://glitch.com/@camille.zaug">
+                        <font-awesome-icon icon="fish" size="3x" :style="{ color: '#4e323d' }"/>
+                    </a>
+                </div>
+                <div class = "linkIcons"> 
+                    <a href = "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4e9juNtDe0KuhTfdLumk4y-vepbccEnJ1umz_lA06XMx8FeBr29UT51rlMULoA-4rOHZXsShRt56sxKEpSiZ-KMVq1lV3uQbS0cB6-E_rq2ZBSGk4&user=iy1IEsMAAAAJ">
+                        <font-awesome-icon icon="book" size="3x" :style="{ color: '#4e323d' }"/>
+                    </a>
+                </div>
+
+        </div>
     </body>
 </template>
 
@@ -43,7 +74,8 @@ body:before {
 .content {
     position: relative;
     text-align: center;
-    padding: 10%;
+    padding: 7%;
+
     background-color: #693338;
     color: #f2eee6;
     max-width: 600px;
@@ -82,21 +114,32 @@ body:before {
     padding-bottom: 3em;
     display: flex;
     justify-content: space-evenly;
-
-   
-
 }
 
-#resume, #github, #glitch, #arch {
-
-background-color: #d54325;
-width: 70px;
-height: 70px;
-border-radius: 5px;
-box-shadow: 3px 3px 8px #4e323d;
-
-
+.linkedin{
+    transition: all .2s ease-in-out;
 }
+
+.linkedin:hover{
+    transform: scale(1.1);
+}
+
+.linkIcons {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d54325;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #4e323d;
+    transition: all .2s ease-in-out
+}
+
+.linkIcons:hover{
+    transform: scale(1.1);
+}
+
 
 
 </style>

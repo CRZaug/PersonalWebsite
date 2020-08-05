@@ -8,11 +8,12 @@
             <h2> A little about me </h2>
 
             <div class = "aboutA">
-                🎓 Recent Seattle U graduate (BS Math, BA Physics, Chinese Minor, Summa Cum Laude)    
+                <font-awesome-icon icon = "graduation-cap" /> 2020 Seattle University graduate    
             </div>
-            <div class = "aboutB">🖥 Software Engineering intern and instructor with GWC</div>
+            <div class = "aboutB">
+                <font-awesome-icon icon = "laptop-house" /> Software engineering intern and Girls Who Code instructor</div>
             <div class = "aboutA">
-                💯 Applied mathematics graduate student at UW fall 2020
+                <font-awesome-icon icon = "calculator" /> Applied mathematics graduate student at the University of Washington fall 2020
             </div>
                 </div>
            
@@ -22,38 +23,39 @@
         <div class = "bullets">
           
              <h2> Things I am excited to be learning</h2>
-
+            <br>
 
                 <h3> Serious things </h3> <!-- Change font -->
             <div class ="bulletA">
-                👩‍💻 Computer science
+                <font-awesome-icon icon = "mouse" /> Computer science
             </div>
             <div class ="bulletB">
-                🍎 Equitable, anti-racist education
+                <font-awesome-icon icon = "chalkboard-teacher" /> Equitable, anti-racist education
             </div>
             <div class ="bulletA">
-                🧮 Applied mathematics
+                <font-awesome-icon icon = "infinity" /> Applied mathematics
             </div>
             <div class ="bulletB">
-                🥮 Mandarin Chinese
+                <font-awesome-icon icon = "language" /> Mandarin Chinese
             </div>
+            <br>
 
-            <p>and<p/> <!-- Change font -->
+            <br>
 
             <h3> Things for fun! </h3> <!-- Change font -->
 
             
             <div class ="bulletB">
-                🛹 Skateboarding
+                <font-awesome-icon icon = "mountain" /> Bouldering
             </div>
             <div class ="bulletA">
-                 🎾 Tennis
+                 <font-awesome-icon icon = "trophy" /> Tennis
             </div>
             <div class ="bulletB">
-                🎹 Piano
+                <font-awesome-icon icon = "music" /> Piano and Guitar
             </div>
             <div class ="bulletA">
-                🍳 Cooking
+                <font-awesome-icon icon = "utensils" /> Vegetarian cooking
             </div>
 
 
@@ -155,4 +157,5 @@ list-style-type:none;
 
 
 </style>
+
 
