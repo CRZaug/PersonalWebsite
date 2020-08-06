@@ -17,15 +17,25 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 
-import { faUserSecret, faUtensils } from '@fortawesome/free-solid-svg-icons';
+
+// Contact
 import { faAddressCard, faFile, faFish, faBook } from '@fortawesome/free-solid-svg-icons';
+library.add(faAddressCard,faFile, faFish, faBook);
+
+
+// About
 import { faCalculator, faMouse, faGraduationCap,faLaptopHouse,faInfinity,faLanguage, faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
 import { faMusic, faTrophy, faUtensils, faMountain} from '@fortawesome/free-solid-svg-icons';
-
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-library.add(faAddressCard, faUserSecret, faGithub, faFile, faFish, faBook, faLinkedin);
 library.add(faCalculator, faMouse, faGraduationCap,faLaptopHouse,faInfinity,faLanguage,faChalkboardTeacher);
 library.add(faMusic, faTrophy, faUtensils, faMountain)
+
+// Brands
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+library.add(faLinkedin,faGithub);
+
+// Timeline
+import {faShare} from '@fortawesome/free-solid-svg-icons';
+library.add(faShare);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('font-awesome-layers', FontAwesomeLayers);

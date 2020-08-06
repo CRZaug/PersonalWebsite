@@ -29,22 +29,22 @@
 
         <div class = "links">
                 <div class ="linkIcons">
-                        <a href="https://www.overleaf.com/">
+                        <a href="https://www.overleaf.com/" target="_blank">
                             <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#4e323d' }" />
                         </a>
                 </div>
                     
                 <div class = "linkIcons"> 
-                    <a href="https://github.com/CRZaug">
+                    <a href="https://github.com/CRZaug" target="_blank">
                         <font-awesome-icon :icon="['fab', 'github']" size="3x" :style="{ color: '#4e323d' }"/>
                     </a>
                 </div>
                 <div class = "linkIcons"> 
-                    <a href="https://glitch.com/@camille.zaug">
+                    <a href="https://glitch.com/@camille.zaug" target="_blank">
                         <font-awesome-icon icon="fish" size="3x" :style="{ color: '#4e323d' }"/>
                     </a>
                 </div>
-                <div class = "linkIcons"> 
+                <div class = "linkIcons" target="_blank"> 
                     <a href = "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4e9juNtDe0KuhTfdLumk4y-vepbccEnJ1umz_lA06XMx8FeBr29UT51rlMULoA-4rOHZXsShRt56sxKEpSiZ-KMVq1lV3uQbS0cB6-E_rq2ZBSGk4&user=iy1IEsMAAAAJ">
                         <font-awesome-icon icon="book" size="3x" :style="{ color: '#4e323d' }"/>
                     </a>
@@ -125,8 +125,8 @@ body:before {
 }
 
 .linkIcons {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,60 +1,51 @@
 <template>
 <body>
-    <h2> Here are a couple projects I am excited about! </h2>
-  <b-card-group deck>
-    <b-card 
-      title="ML with Kaggle"
-    
-      tag="article"
-      style="max-width: 20rem;"
-      class="mb-2"
-      id = "card1"
-    >
-      <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
 
-      <b-button href="#" variant="primary">Go somewhere</b-button>
-    </b-card>
+    <div class = "cIntro">
 
-    <b-card
-      title="Glitch-based Personality Quiz"
-      tag="article"
-      style="max-width: 20rem;"
-      class="mb-2"
-      id = "card2"
-    >
-      <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+    <h2> Projects I am proud of</h2>
 
-      <b-button href="#" variant="primary">Go somewhere</b-button>
-    </b-card>
- 
-    <b-card
-      title="Toy CS Problems"
+    </div>
+  <div class = "cardContainer">
+    <div class = "card" id = "card1">
+      <h3> This website! </h3>
+    </div>
 
-      tag="article"
-      style="max-width: 20rem;"
-      class="mb-2"
-      id = "card3"
-    >
-    <button>
-      <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+    <div class = "card" id = "card2">
+       <h3> ML in Kaggle </h3>
+    </div>
 
-      <b-button href="#" variant="primary">Go somewhere</b-button>
-      </button>
-    </b-card>
+    <div class = "card" id = "card3">
+       <h3> Modeling Nonlinear Waves </h3>
+    </div>
 
-    <b-card
-      title="PUBLICATIONS"
-     
-      tag="article"
-      style="max-width: 20rem;"
-      class="mb-2"
-      id = "card4"
-    >
-      <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+    <div class = "card" id = "card4">
+       <h3> Personality Quiz </h3>
+    </div>
 
-      <b-button href="#" variant="primary">Go somewhere</b-button>
-    </b-card>
-  </b-card-group>
+    <div class = "card" id = "card5">
+      <h3> Measuring Lightspeed </h3>
+    </div>
+
+    <div class = "card" id = "card6">
+       <h3> Python Timbre Synthesizer </h3>
+    </div>
+
+    <div class = "card" id = "card7">
+       <h3> Applying Arnoldi Iteration </h3>
+    </div>
+
+    <div class = "card" id = "card8">
+       <h3> Data Structures and Algorithms </h3>
+    </div>
+
+    <!-- Other ideas: Synthesizer project, Numerical Methods Project, Asymp. Project, Toy CS problems, Physics reports -->
+    <!-- Include a "See all" button? -->
+  </div>
+
+  <div class = "end">
+    <h4> More to come!</h4>
+  </div>
 </body>
 </template>
 
@@ -77,40 +68,103 @@ body:before {
 
 }
 
-#card1, #card2, #card3, #card4 {
-  padding: 1%;
-  width: 100%;
-}
-
-
-
-#card1 {
-  height: 400px;
-  background-position: center;
-  border: 4px solid #d54325;
-  background-color: #693338;
+.cIntro{
+  background-color:  #693338;
   color: #f2eee6;
-  transition: 0.4s;
-    
+  padding: 1%;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2em;
+
+  border-top: 4px solid #d54325;
+  border-left: 4px solid #d54325;
+
+  text-align: center;
+
 }
 
-button {
-  background-color: #d54325;
-  transition: 0.4s;
+.cardContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
 }
 
-#button:hover{
-  background-color: black;
+.card {
+  padding: 1%;
+  margin: 1%;
+  margin-bottom: 4%;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px #4e323d;
+  
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  flex-basis: 20%;
+
+  transition: all ease-in 0.5s;
 }
 
-#card2 {
+.card:hover{
+  transform: scale(1.01);
+  
+  
+}
+
+
+#card1, #card8 {
+  background-position: center;
+  border-bottom: 4px solid #d54325;
+  border-right: 4px solid #d54325;
+  background-color: #693338;
+  color: #f2eee6;  
+}
+
+
+#card2,#card7 {
     background-color: #e9c0b0;
+    border-bottom: 4px solid #d54325;
+  border-right: 4px solid #d54325;
 }
-#card3 {
+#card3, #card6 {
     background-color: #4e323d;
+    border-bottom: 4px solid #d54325;
+  border-right: 4px solid #d54325;
     color: #f2eee6;
 }
-#card4 {
+#card4, #card5 {
     background-color: #d8746a;
+    border-bottom: 4px solid #d54325;
+  border-right: 4px solid #d54325;
+}
+
+
+
+.end {
+  color: #4e323d;
+  background-color:#e9c0b0;
+  border-radius: 5px;
+  
+  width: 25%;
+  height: 100px;
+  margin-left:auto;
+  margin-right:auto;
+
+  border-top: 4px solid #d54325;
+  border-left: 4px solid #d54325;
+
+  margin-top: 2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 </style>

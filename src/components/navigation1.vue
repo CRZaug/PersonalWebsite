@@ -6,13 +6,13 @@
                  <img src = "../assets/IMG_2768.jpeg" alt = "from Taylor" id = "introPic" width="30px" />
             </li>
             <li id= "name">  
-                <h3>Camille Zaug</h3>
+                <a href = "#intro" id= "name"><h3>Camille Zaug</h3></a>
             </li>
-            <li><a href = "#intro">Home</a></li>
             <li><a href = "#about">About</a></li>
             <li><a href = "#projectcards">Projects</a></li>
             <li><a href = "#timeline">Experience</a></li>
             <li><a href = "#contact">Contact</a></li>
+            <li><a href = "../assets/Camille_Zaug_Resume_July_2020.pdf" target = "_blank"> Resume </a></li>
         </ul>
 
     </nav>

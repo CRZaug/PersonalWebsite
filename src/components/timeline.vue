@@ -11,8 +11,11 @@
 
                     <br>
                     <br>
-                        Want to know more about my professional experience? Check out my resume!
+                        Want to know more about my experience? Check out my resume!
                   </p>
+                  <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
             </div>
               <div class = triangle-container><div class = "triangle"></div></div>
 
@@ -31,6 +34,9 @@
                         <br>
                         Working with Python and SQL to write algorithms and query databases in support of financial software development
                     </p>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
                 </div>
             </div>
 
@@ -42,6 +48,9 @@
                     <br>
                     I studied mathematics, physics, and Chinese
                      </p>
+                     <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
                 </div>    
             </div>
 
@@ -53,6 +62,9 @@
                     <br>
                     My involvement in scientific computing through this project sparked my interest in CS!
                      </p>
+                     <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
                 </div>    
             </div>
 
@@ -67,6 +79,9 @@
 
                     Starting at hopelessly complicated image processing scripts in MATLAB and learning Python was so worth it.
                      </p>
+                     <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
                 </div>
             </div>
 
@@ -85,6 +100,9 @@
                         Teaching over 310 young women HTML, CSS, and Javascript while building virtual classroom culture
 
                     </p>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
                     </div>
                 </div>
                 
@@ -97,7 +115,13 @@
                         <br>
                         Check out the result here!
                          </p>
-                    </div>    
+                         <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                    </div>  
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>  
                 </div>
                 
                 <div class = "tlcontainer tlB">
@@ -108,6 +132,9 @@
                     <br>
                     Worked in classrooms and ran an after school program. Created the SUM corps website! Found here:
                     </p>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
                     </div>
                 </div>
 
@@ -315,15 +342,49 @@ h3 {
 border-top: 5px solid #d54325;
 border-left: 5px solid #d54325;
 box-shadow: 3px 3px 8px #4e323d;
+left: 0;
+transition: all ease-in 0.5s;
 
+}
+
+/* The share arrow */
+
+.overturn{
+  text-align: right;
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in 0.5s;
+}
+
+.A:hover{
+  left: 1%;
+
+}
+
+.A:hover > .overturn{
+    opacity: 1;
+    visibility:visible;
 }
 
 .B {
 border-bottom: 5px solid #d54325;
 border-right: 5px solid #d54325;
 box-shadow: 3px 3px 8px #4e323d;
+transition: all ease-in 0.5s;
+right: 0;
+}
+.B:hover{
+  right: 1%;
 
 }
+
+
+
+.B:hover > .overturn{
+    opacity: 1;
+    visibility:visible;
+}
+
 
 
 .opportunity-content {

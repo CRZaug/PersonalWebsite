@@ -4,58 +4,81 @@
 
         <div class = "paragraph">
     
-            <div id="p-card">
+
             <h2> A little about me </h2>
+            <br>
 
             <div class = "aboutA">
-                <font-awesome-icon icon = "graduation-cap" /> 2020 Seattle University graduate    
+                <font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/>
+                <p> 2020 Seattle University graduate </p>
             </div>
+            <br>
             <div class = "aboutB">
-                <font-awesome-icon icon = "laptop-house" /> Software engineering intern and Girls Who Code instructor</div>
-            <div class = "aboutA">
-                <font-awesome-icon icon = "calculator" /> Applied mathematics graduate student at the University of Washington fall 2020
-            </div>
+                <font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/>
+                <p> Software engineering intern and Girls Who Code instructor</p>
                 </div>
+                <br>
+            <div class = "aboutA">
+                <font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/>
+                <p> Applied mathematics graduate student at the University of Washington starting fall 2020</p>
+            </div>
+        
            
 
         
         </div>
         <div class = "bullets">
           
-             <h2> Things I am excited to be learning</h2>
-            <br>
+             <h2> What I'm learning</h2>
+             <br>
+             <h3> "Professional" things </h3> <!-- Change font -->
+             <br>
+             <div class = "bulletSection">
 
-                <h3> Serious things </h3> <!-- Change font -->
-            <div class ="bulletA">
-                <font-awesome-icon icon = "mouse" /> Computer science
+            <div class ="bullet">
+                <font-awesome-icon icon = "mouse" size = "2x" :style="{ color: '#4e323d' }"/>
+               <h6>  Computer science</h6>
             </div>
-            <div class ="bulletB">
-                <font-awesome-icon icon = "chalkboard-teacher" /> Equitable, anti-racist education
+            <div class ="bullet">
+                <font-awesome-icon icon = "language" size = "2x" :style="{ color: '#4e323d' }"/>
+                <h6> Mandarin Chinese</h6>
             </div>
-            <div class ="bulletA">
-                <font-awesome-icon icon = "infinity" /> Applied mathematics
+            
+            <div class ="bullet">
+                <font-awesome-icon icon = "infinity" size = "2x" :style="{ color: '#4e323d' }"/> 
+                <h6>Applied mathematics</h6>
             </div>
-            <div class ="bulletB">
-                <font-awesome-icon icon = "language" /> Mandarin Chinese
+            <div class ="bullet">
+                <font-awesome-icon icon = "chalkboard-teacher" size = "2x" :style="{ color: '#4e323d' }"/> 
+                <h6>Anti-racist education</h6>
+            </div>
             </div>
             <br>
 
             <br>
 
             <h3> Things for fun! </h3> <!-- Change font -->
-
+            <br>
             
-            <div class ="bulletB">
-                <font-awesome-icon icon = "mountain" /> Bouldering
+            <div class = "bulletSection">
+            <div class ="bullet">
+                <font-awesome-icon  icon = "mountain"  size = "2x" :style="{ color: '#4e323d' }"/> 
+                <h6> Bouldering</h6> 
+                
             </div>
-            <div class ="bulletA">
-                 <font-awesome-icon icon = "trophy" /> Tennis
+            <div class ="bullet">
+                 <font-awesome-icon icon = "music" size = "2x" :style="{ color: '#4e323d' }"/>
+                 <h6> Piano and guitar </h6> 
             </div>
-            <div class ="bulletB">
-                <font-awesome-icon icon = "music" /> Piano and Guitar
+            <div class ="bullet">
+                <font-awesome-icon   icon = "trophy" size = "2x" :style="{ color: '#4e323d' }"/> 
+                 <h6> Tennis</h6> 
             </div>
-            <div class ="bulletA">
-                <font-awesome-icon icon = "utensils" /> Vegetarian cooking
+            
+            <div class ="bullet">
+                 <font-awesome-icon icon = "utensils" size = "2x" :style="{ color: '#4e323d' }"/>
+                <h6> Vegetarian cooking</h6> 
+            </div>
             </div>
 
 
@@ -91,6 +114,12 @@ list-style-type:none;
 
     }
 
+p {
+    margin-left: 0.5em;
+}
+
+
+
 .about {
     display: flex;
     justify-content: center;
@@ -98,6 +127,7 @@ list-style-type:none;
     flex: wrap;
     margin-bottom: 10em;
 }
+
 
 
 
@@ -111,12 +141,13 @@ list-style-type:none;
 }
 
 .bullets {
-    /* position: relative; */
+    position: relative;
     background-color: #e9c0b0;
-    padding-left: 10%;
-    padding-right: 15%;
+    padding-right: 5%;
     border-left: 8px solid #693338;
-
+    right: 5%;
+    margin-right: 1.5em;
+    padding-left: 12.5%;
 
 }
 .paragraph {
@@ -125,34 +156,32 @@ list-style-type:none;
     margin-left:1.5em;
     margin-right: 1.5em;
     max-height:100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     border-top: 8px solid #d54325;
     border-left: 8px solid #d54325;
     box-shadow: 3px 3px 8px #4e323d;
     background-color:  #f2eee6;
     left: 5%;
+    z-index: 1;
 }
 
 
-
-
-
-.aboutA, .bulletA{
-    /* width: 80%; */
-    text-align: left;
-    margin: 1em;
-    flex-basis: 80%;
-
+.aboutA, .aboutB{
+    display: flex;
+    flex-direction: row;
 }
 
-.aboutB, .bulletB{
-    /* width: 80%; */
-    text-align: right;
-    margin: 1em;
-    flex-basis: 80%;
-
+.bullet{
+text-align: center;
+flex-basis:50%;
+margin-bottom: 0.75em;
 }
+
+.bulletSection{
+    display:flex;
+    flex-wrap: wrap;
+    }
 
 
 

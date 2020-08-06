@@ -1,8 +1,8 @@
 <template>
     <body>
         <div id = "footer">
-        <h4> Here is the footer: takes you back to top</h4>
-        <p> Is there something else on the footer? </p>
+        <h4> Thanks for stopping by! </h4>
+        <a href = "#intro"> Back to top </a>
         </div>
     </body>
 </template>
@@ -14,9 +14,16 @@
 }
 
 body{
+    color: #f2eee6;  
+}
+
+a {
     color: #f2eee6;
-   
-    
+}
+
+a:hover {
+    color:#e9c0b0;
+    text-decoration: none;
 }
 
 #footer {
