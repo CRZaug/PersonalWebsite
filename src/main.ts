@@ -37,6 +37,10 @@ library.add(faLinkedin,faGithub);
 import {faShare} from '@fortawesome/free-solid-svg-icons';
 library.add(faShare);
 
+// Projects
+import {faSmile} from '@fortawesome/free-solid-svg-icons';
+library.add(faSmile);
+
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('font-awesome-layers', FontAwesomeLayers);
 Vue.component('font-awesome-layers-text', FontAwesomeLayersText);

@@ -5,8 +5,8 @@
             <li>
                  <img src = "../assets/IMG_2768.jpeg" alt = "from Taylor" id = "introPic" width="30px" />
             </li>
-            <li id= "name">  
-                <a href = "#intro" id= "name"><h3>Camille Zaug</h3></a>
+            <li>  
+                <a href = "#intro" ><h3 id= "name">Camille Zaug</h3></a>
             </li>
             <li><a href = "#about">About</a></li>
             <li><a href = "#projectcards">Projects</a></li>
@@ -21,20 +21,27 @@
 
 <style scoped>
 
+*{
+    padding:0;
+    margin: 0;
+}
+
 ul {
-padding-top: 0.2em;
-list-style-type: none;
-margin-bottom: 0.4em;
+    padding-top: 0.2em;
+    list-style-type: none;
+    margin-bottom: 0.4em;
 }
 
 li{
     display: inline-block;
     padding-right:1em;
 
+
     }
 
 a {
     color: #f2eee6;
+    top: -10%;
 }
 
 a:hover {
@@ -55,8 +62,7 @@ a:hover {
 
 #name {
     color: #d54325;
-    padding-right: 4em;
-    top: -10%;
+    padding-right: 1em;
 }
 
 
