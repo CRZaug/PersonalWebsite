@@ -20,6 +20,7 @@
               <div class = triangle-container><div class = "triangle"></div></div>
 
           </div>
+          <div id = "hCircle" class = "circle"></div>
 
           
            
@@ -145,12 +146,9 @@
         
 
     </div>
-    <div class = "circle">
-    </div>
-    <div class = "circle">
-    </div>
-    <div class = "circle">
-    </div>
+      <div class = "circle"></div>
+      <div class = "circle"></div>
+      <div class = "circle"></div>
     </div>
     
 
@@ -186,8 +184,6 @@ h3 {
     padding-top: 1em;
 
 }
-
-
 .timeline{
     position: relative;
     max-width: 1200px;
@@ -220,7 +216,6 @@ h3 {
   z-index: 1;
   background-color: #693338;
   border-radius: 50%;
-
 }
 
 
@@ -298,35 +293,7 @@ h3 {
   border-radius: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
-/* .tlA::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #f2eee6;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f2eee6;
-}*/
 
-
-
-/* Add arrows to the right container (pointing left) */
-/* .tlB::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #f2eee6;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #f2eee6 transparent transparent;
-}  */
 
 /* The actual content */
 .content {
@@ -390,7 +357,6 @@ right: 0;
 .opportunity-content {
   text-align: center;
   padding: 20px 20px;
-  margin-top: 3em;
   background-color: #d8746a;
   border-radius: 6px;
   max-width: 600px;
@@ -423,44 +389,37 @@ right: 0;
 
 }
 
-
+#hCircle{
+  display: none;
+}
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 640px) {
 
-/* Full-width containers */
-  .tlcontainer {
-    width: 100%;
-    padding: 0;
-    margin:0;
-    
-  }
+/* Replace the triangle from the main card with a circle */
+.triangle{
+  display: none;
 }
 
-.colA::after{
-  padding:0px;
-  margin-left:0px;
+#hCircle{
+  display: block;
+  margin-left:1em;
+  margin-bottom: 0.5em;
 }
 
-.colB::after{
-  padding:0px;
-  margin-right:0px;
+.timeline::after{
+
+    left: 1em;
 }
 
-.tlA::after{
-  padding:0px;
-  margin-right:0px;
+/* Circles after the timeline, dot dot dot*/
+.circle{
+  margin-left:.9em;
+  margin-right:0;
 }
 
-.tlB::after{
-  padding:0px;
-  margin-left:0px;
-}
 
-.content::after{
-  margin: 0px;
 
 }
-
 
 
 

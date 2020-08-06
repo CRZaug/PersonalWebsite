@@ -3,7 +3,7 @@
 
     <div class = "cIntro">
 
-    <h2> Projects I am proud of</h2>
+    <h2>Highlighted Projects</h2>
 
     </div>
   <div class = "cardContainer">
@@ -12,14 +12,23 @@
 
       <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: Spare time during lockdown to check a goal off the list</li>
-            <li> HOW: Vue.js </li>
-            <li> WHEN: Ongoing!</li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>Spare time during lockdown to check a goal off the list</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Vue.js</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Ongoing!</td>
+            </tr>
+          </table>
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Arxiv! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
         </div>
       </div>
 
@@ -31,14 +40,26 @@
 
       <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: Apply statistical learning to real-world data and test results</li>
-            <li> HOW: R, R Markdown </li>
-            <li> WHEN: Spring 2020</li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>Apply statistical learning to real-world data and test results</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>R, R Markdown</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Spring 2020</td>
+            </tr>
+          </table>
+
+
+
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Arxiv! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
         </div>
       </div>
 
@@ -49,11 +70,21 @@
 
        <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: Ocean waves are fascinating and beautiful (also my senior thesis!)</li>
-            <li> HOW: Python, Mathematica</li>
-            <li> WHEN: 2018-2020 </li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>Ocean waves are fascinating and beautiful (also my senior thesis!)</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Python, Mathematica</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>2018-2020</td>
+            </tr>
+          </table>
+
         </div>
         <div>
           <p class = "gh"> <font-awesome-icon :icon="['fa', 'smile']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Arxiv! </p>
@@ -67,11 +98,23 @@
 
       <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: For an inside joke inspired by Girls Who Code student</li>
-            <li> HOW: Glitch (my first time writing JavaScript!)</li>
-            <li> WHEN: Summer 2020 </li>
-          </ul>
+
+
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>For an inside joke inspired by Girls Who Code student</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Glitch (my first time writing JavaScript!)</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Summer 2020</td>
+            </tr>
+          </table>
+
         </div>
         <div>
           <p class = "gh"> <font-awesome-icon :icon="['fa', 'fish']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Glitch! </p>
@@ -85,14 +128,24 @@
 
         <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: We had the tools in advanced physics lab, so why not??</li>
-            <li> HOW: Oscilloscopes, Pyhon, MATLAB</li>
-            <li> WHEN: Winter 2019 </li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>We had the tools in advanced physics lab, so why not??</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Oscilloscopes, Pyhon, MATLAB</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Winter 2019</td>
+            </tr>
+          </table>
+         
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out the report </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="1x" :style="{ color: '#f2eee6' }"/> Check out the report! </p>
         </div>
       </div> 
 
@@ -103,11 +156,21 @@
 
         <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: Explore personal interest in music and Fourier transforms</li>
-            <li> HOW: Python (my first object-oriented code!) </li>
-            <li> WHEN: Spring 2020 </li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>Explore personal interest in music and Fourier transforms</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Python (my first object-oriented code!)</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Spring 2020 (Locked-down spring break)</td>
+            </tr>
+          </table>
+        
         </div>
         <div>
           <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
@@ -116,16 +179,27 @@
 
     </div>
 
+
     <div class = "card" id = "card7">
        <h3> Applying Arnoldi Iteration </h3>
 
         <div class = "cardhover" id = "hcard7">
         <div>
-          <ul>
-            <li> WHY: Practice numerical methods on large matrices</li>
-            <li> HOW: Python, Julia </li>
-            <li> WHEN: Winter 2019 </li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>Practice numerical methods on large matrices</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Python, Julia</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Winter 2019</td>
+            </tr>
+          </table>
+          
         </div>
         <div>
           <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
@@ -139,11 +213,22 @@
        
       <div class = "cardhover" id = "hcard8">
         <div>
-          <ul>
-            <li> WHY: Learn incredibly useful CS tools while preparing for my next step!</li>
-            <li> HOW: <i>Cracking the Coding Interview</i>, Python, C, C++ </li>
-            <li> WHEN: Ongoing! </li>
-          </ul>
+          <table>
+            <tr>
+              <th>WHY</th>
+              <td>Play with fun CS problems while preparing for my next step!</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td><i>Cracking the Coding Interview</i>, Python, C, C++</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Ongoing!</td>
+            </tr>
+          </table>  
+
+        
         </div>
         <div>
           <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
@@ -160,9 +245,19 @@
     <!-- Include a "See all" button? -->
   </div>
 
+  <div class ="circleContainer">
+    <div class = "circle"></div>
+    <div class = "circle"></div>
+    <div class = "circle"></div>
+  </div>
+
   <div class = "end">
     <h4> More to come!</h4>
   </div>
+
+  
+
+
 </body>
 </template>
 
@@ -185,6 +280,13 @@ body:before {
 
 }
 
+th {
+  vertical-align: top;
+}
+td{
+  padding-left: 0.25em;
+}
+
 .cIntro{
   background-color:  #693338;
   color: #f2eee6;
@@ -202,19 +304,21 @@ body:before {
 }
 
 .cardContainer{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: space-around;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+
+  grid-gap: 10px;
+
 }
 
 .card {
   padding: 1%;
   margin: 1%;
   margin-bottom: 4%;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  min-height: 200px;
   border-radius: 5px;
   box-shadow: 3px 3px 8px #4e323d;
   
@@ -224,19 +328,21 @@ body:before {
   justify-content: center;
   align-content: center;
 
-  flex-basis: 20%;
 
+  top:0;
   transition: all ease-in 0.5s;
 
 }
 
 .card:hover{
-  transform: scale(1.01);
+  top: -2.5%;
 
 }
 
 .cardhover{
-  padding: 1%;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   position: absolute;
   top:0;
   left:0;
@@ -248,9 +354,9 @@ body:before {
   transition: all ease-in 0.5s;
   text-align: left;
 
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 15%;
 
   
 }
@@ -297,7 +403,7 @@ body:before {
   background-color:#e9c0b0;
   border-radius: 5px;
   
-  width: 25%;
+  width: 400px;
   height: 100px;
   margin-left:auto;
   margin-right:auto;
@@ -312,4 +418,54 @@ body:before {
   align-items: center;
 
 }
+
+.circleContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.circle{
+  margin-top: 2em;
+  margin-left:1em;
+  margin-right:1em;
+  width: 10px;
+  height: 10px;
+  left: 2px;
+  top: 50px;
+  z-index: 1;
+  background-color: #693338;
+  border-radius: 50%;
+}
+
+
+/* Media breakpoints */
+@media only screen and (max-width: 1300px) {
+  
+.cardContainer{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+
+  grid-gap: 50px;
+  justify-content: center;
+}
+}
+
+@media only screen and (max-width: 650px) {
+  
+.cardContainer{
+
+  display: block;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+
+
 </style>

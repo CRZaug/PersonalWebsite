@@ -10,23 +10,29 @@
 
             <div class = "aboutA">
                 <font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/>
-                <p> 2020 Seattle University graduate </p>
+                <p> <b>2020 Seattle University graduate</b>, <i>summa cum laude</i>
+                    <br>
+                    B.S. Mathematics, B.A. Physics, Chinese minor
+                     </p>
             </div>
             <br>
             <div class = "aboutB">
                 <font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/>
-                <p> Software engineering intern and Girls Who Code instructor</p>
+                <p> <b>Software engineering intern</b> with Creative Creek
+                    <br>
+                    <b>Instructor</b> with Girls Who Code</p>
                 </div>
                 <br>
             <div class = "aboutA">
                 <font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/>
-                <p> Applied mathematics graduate student at the University of Washington starting fall 2020</p>
+                <p> <b>Applied mathematics graduate student</b> at the University of Washington starting fall 2020</p>
             </div>
         
            
 
         
         </div>
+        <div class = "break"></div>
         <div class = "bullets">
           
              <h2> What I'm learning</h2>
@@ -34,7 +40,10 @@
              <h3> "Professional" things </h3> <!-- Change font -->
              <br>
              <div class = "bulletSection">
-
+            <div class ="bullet">
+                <font-awesome-icon icon = "infinity" size = "2x" :style="{ color: '#4e323d' }"/> 
+                <h6>Applied mathematics</h6>
+            </div>
             <div class ="bullet">
                 <font-awesome-icon icon = "mouse" size = "2x" :style="{ color: '#4e323d' }"/>
                <h6>  Computer science</h6>
@@ -44,10 +53,7 @@
                 <h6> Mandarin Chinese</h6>
             </div>
             
-            <div class ="bullet">
-                <font-awesome-icon icon = "infinity" size = "2x" :style="{ color: '#4e323d' }"/> 
-                <h6>Applied mathematics</h6>
-            </div>
+            
             <div class ="bullet">
                 <font-awesome-icon icon = "chalkboard-teacher" size = "2x" :style="{ color: '#4e323d' }"/> 
                 <h6>Anti-racist education</h6>
@@ -183,6 +189,33 @@ margin-bottom: 0.75em;
     flex-wrap: wrap;
     }
 
+/* Media breakpoint */
+@media only screen and (max-width: 1000px) {
+
+
+.about{
+    flex-direction: column;
+}
+
+.paragraph{
+    width:80%;
+    left:0;
+}
+
+.bullets{
+    width:100%;
+    border: 0px;
+    margin: 0;
+    padding-top: 2em;
+    left:0;
+    top: -1em;
+    border-bottom: 8px solid #693338;
+}
+
+.break{
+    flex-basis: 100%
+}
+}
 
 
 </style>

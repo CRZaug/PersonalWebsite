@@ -141,5 +141,18 @@ body:before {
 }
 
 
+@media only screen and (max-width: 1000px) {
 
+
+.links{
+    justify-content: space-between;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+.content{
+    border-left: 0;
+}
+}
 </style>

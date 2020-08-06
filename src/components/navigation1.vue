@@ -12,7 +12,7 @@
             <li><a href = "#projectcards">Projects</a></li>
             <li><a href = "#timeline">Experience</a></li>
             <li><a href = "#contact">Contact</a></li>
-            <li><a href = "../assets/Camille_Zaug_Resume_July_2020.pdf" target = "_blank"> Resume </a></li>
+            <li><a href = "../assets/Camille_Zaug_Resume_July_2020.pdf" target = "_blank" download> Resume </a></li>
         </ul>
 
     </nav>
