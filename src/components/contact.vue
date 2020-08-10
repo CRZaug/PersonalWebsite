@@ -1,24 +1,21 @@
 <template>
     <body>
-        <div class = "content">
-            <h3> Say hello! </h3>
+        <div class = "seeMore">
+            <div class = "content">
+                <h2> Say hello! </h2>
 
-            <p> Connect with me on LinkedIn or see my résumé for my contact information. </p>
-            <div class = "linkedin">
-                <a href = "https://www.linkedin.com/in/crzaug/">
-                    <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" :style="{ color: '#f2eee6' }"/>
-                </a>
+                <p> Connect with me on LinkedIn or see my résumé for my contact information. </p>
+                <div class = "linkedin">
+                    <a href = "https://www.linkedin.com/in/crzaug/">
+                        <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" :style="{ color: '#f2eee6' }"/>
+                    </a>
+                </div>
             </div>
-        </div>
-
+            <div class = "work">
+                <h4> Want to see more of my work? </h4>
+            </div>
         
 
-        <div class = "work">
-            <h4> Want to see more of my work? </h4>
-
-           
-       
-        </div>
 
 
 
@@ -26,30 +23,30 @@
 
 
 
-
-        <div class = "links">
-                <div class ="linkIcons">
-                        <a href="https://www.overleaf.com/" target="_blank">
-                            <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#4e323d' }" />
+            <div class = "links">
+                    <div class ="linkIcons">
+                            <a href="https://www.overleaf.com/" target="_blank">
+                                <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#4e323d' }" />
+                            </a>
+                    </div>
+                        
+                    <div class = "linkIcons"> 
+                        <a href="https://github.com/CRZaug" target="_blank">
+                            <font-awesome-icon :icon="['fab', 'github']" size="3x" :style="{ color: '#4e323d' }"/>
                         </a>
-                </div>
-                    
-                <div class = "linkIcons"> 
-                    <a href="https://github.com/CRZaug" target="_blank">
-                        <font-awesome-icon :icon="['fab', 'github']" size="3x" :style="{ color: '#4e323d' }"/>
-                    </a>
-                </div>
-                <div class = "linkIcons"> 
-                    <a href="https://glitch.com/@camille.zaug" target="_blank">
-                        <font-awesome-icon icon="fish" size="3x" :style="{ color: '#4e323d' }"/>
-                    </a>
-                </div>
-                <div class = "linkIcons" target="_blank"> 
-                    <a href = "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4e9juNtDe0KuhTfdLumk4y-vepbccEnJ1umz_lA06XMx8FeBr29UT51rlMULoA-4rOHZXsShRt56sxKEpSiZ-KMVq1lV3uQbS0cB6-E_rq2ZBSGk4&user=iy1IEsMAAAAJ">
-                        <font-awesome-icon icon="book" size="3x" :style="{ color: '#4e323d' }"/>
-                    </a>
-                </div>
+                    </div>
+                    <div class = "linkIcons"> 
+                        <a href="https://glitch.com/@camille.zaug" target="_blank">
+                            <font-awesome-icon icon="fish" size="3x" :style="{ color: '#4e323d' }"/>
+                        </a>
+                    </div>
+                    <div class = "linkIcons" target="_blank"> 
+                        <a href = "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4e9juNtDe0KuhTfdLumk4y-vepbccEnJ1umz_lA06XMx8FeBr29UT51rlMULoA-4rOHZXsShRt56sxKEpSiZ-KMVq1lV3uQbS0cB6-E_rq2ZBSGk4&user=iy1IEsMAAAAJ">
+                            <font-awesome-icon icon="book" size="3x" :style="{ color: '#4e323d' }"/>
+                        </a>
+                    </div>
 
+                </div>
         </div>
     </body>
 </template>
@@ -58,7 +55,7 @@
 body {
 
     background-color: #f2eee6;
-    margin-bottom: 5em;
+    /* margin-bottom: 5em; */
 }
 
 body:before {
@@ -69,6 +66,14 @@ body:before {
     height:5em;
     margin-top:-5em;
 
+}
+
+.seeMore{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .content {

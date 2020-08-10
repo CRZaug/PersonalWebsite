@@ -6,7 +6,7 @@
       <div id ="opportunity">
           <div class ="opportunity-content">
               <h3>Looking for opportunities summer 2021!</h3>
-                  <p>
+                  <p id = "par">
                         I am interested in data science, AI, and software engineering.
 
                     <br>
@@ -26,10 +26,13 @@
            
 
           <div class = "timeline">
-            <div class = "colA">
+            <div class = "container">
+
                 <div class = "tlcontainer tlA">
                     <div class = "content A">
-                    <h4>Creative Creek</h4>
+                    <h4>Software Engineering and Development Intern</h4>
+                    <h5>Creative Creek</h5>
+                    <h6>2020-present</h6>
                     <p>Dipping my toes into software engineering and design
                         <br>
                         <br>
@@ -41,13 +44,31 @@
                 </div>
             </div>
 
+            <div class = "tlcontainer tlB">
+                    <div class = "content B">
+                    <h4>Computer Science Instructor</h4>
+                    <h5>Girls Who Code </h5>
+                <h6>Summer 2020</h6>
+                    <p>Combing my passions of equitable equcation and STEM
+                        <br>
+                        <br>
+                        Teaching over 310 young women HTML, CSS, and Javascript while building lasting community 
+
+                    </p>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                    </div>
+                </div>
+
             <div class = "tlcontainer tlA">
                 <div class = "content A">
-                <h4>Seattle University Grad</h4>
-                <p>I graduated summa cum laude with a dual degree!
+                <h4>Seattle University Graduate</h4>
+                <h6>2016-2020</h6>
+                <p>I graduated during the pandemic, so it feels like graduation never happened.
                     <br>
                     <br>
-                    I studied mathematics, physics, and Chinese
+                    I studied mathematics, physics, and Chinese and graduated <i> summa cum laude</i>.
                      </p>
                      <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
@@ -55,9 +76,49 @@
                 </div>    
             </div>
 
+            <div class = "tlcontainer tlB">
+                    <div class = "content Alt B">
+                    <h4>Picked up guitar</h4>
+        
+                    <h6>2020</h6>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                    </div>
+                </div>
+
+            <div class = "tlcontainer tlA">
+                    <div class = "content A">
+                    <h4>First Publication</h4>
+                <h6>Spring 2020</h6>
+                    <p>During the winter and spring of 2019, I conducted research developing precision instruments for physics lab students
+                        
+                        <br>
+                        <br>
+                        Check out the result here!
+                         </p>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                    </div>
+                </div>
+             <div class = "tlcontainer tlB">
+                  <div class = "content Alt B">
+                    <h4>Started bouldering</h4>
+        
+                    <h6>2019</h6>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                  </div>
+                </div> 
+            
+
             <div class = "tlcontainer tlA">
                 <div class = "content A">
-                <h4>Applied Math Research Assistant at Seattle University</h4>
+                <h4>Applied Math Research Assistant</h4>
+                <h5>Seattle University </h5>
+                <h6>2018-2020</h6>
                 <p> I studied nonlinear waves and the propagation of swell across the Pacific ocean
                     <br>
                     <br>
@@ -69,9 +130,39 @@
                 </div>    
             </div>
 
-             <div class = "tlcontainer tlA">
-                <div class = "content A">
-                <h4>Lawrence Livermore National Laboratory Intern</h4>
+            <div class = "tlcontainer tlB">
+                    <div class = "content B">
+                    <h4>Team Lead</h4>
+                    <h5>Seattle University Mathematics Corps</h5>
+                    <h6>2018-2020</h6>
+                    <p>Provided support to students at Bailey Gatzert Elementary School
+                    <br>
+                    <br>
+                    Worked in classrooms and ran an after school program. Created the SUM corps website! Found here:
+                    </p>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                    </div>
+                </div>
+
+            <div class = "tlcontainer tlA">
+                  <div class = "content Alt A">
+                    <h4>Began playing piano (again!)</h4>
+        
+                    <h6>2017</h6>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class = "tlcontainer tlB">
+                <div class = "content B">
+                <h4>Materials Science Intern</h4>
+                <h5>Lawrence Livermore National Laboratory </h5>
+                <h6>2016-2017</h6>
                 <p> Conducting research in materials science provided my first experience Conducting
                     
 
@@ -86,62 +177,33 @@
                 </div>
             </div>
 
-
+            <div class = "tlcontainer tlA">
+                  <div class = "content Alt A">
+                    <h4>Started learning Chinese</h4>
+        
+                    <h6>2012</h6>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                  </div>
+                  </div>
             </div>
 
-            <div class = "colB">
+            
+
+            
+
                 
 
-                <div class = "tlcontainer tlB">
-                    <div class = "content B">
-                    <h4>Instructor at Girls Who Code</h4>
-                    <p>Combing my passions of equitable equcation and STEM
-                        <br>
-                        <br>
-                        Teaching over 310 young women HTML, CSS, and Javascript while building virtual classroom culture
-
-                    </p>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
-                    </div>
-                </div>
                 
-                <div class = "tlcontainer tlB">
-                    <div class = "content B">
-                    <h4>First Publication</h4>
-                    <p>During the winter and spring of 2019, I conducted research developing precision instruments for physics lab students
-                        
-                        <br>
-                        <br>
-                        Check out the result here!
-                         </p>
-                         <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
-                    </div>  
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>  
-                </div>
                 
-                <div class = "tlcontainer tlB">
-                    <div class = "content B">
-                    <h4>Team Lead with Seattle University Mathematics Corps</h4>
-                    <p>Provided support to students at Bailey Gatzert Elementary School
-                    <br>
-                    <br>
-                    Worked in classrooms and ran an after school program. Created the SUM corps website! Found here:
-                    </p>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
-                    </div>
-                </div>
+               
 
-              
+                 
+                
+                
 
-            </div>
+                
            
         
 
@@ -179,18 +241,23 @@ h3 {
 /* The extensive styling for the timeline comes below */
 .c {
     background-color: inherit;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     box-sizing: border-box;
     padding-top: 1em;
 
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+
+}
+
 .timeline{
     position: relative;
-    max-width: 1200px;
     margin: 0 auto;
 
-    display: flex;
-    flex-direction: row;
 }
 
 /* Timeline */
@@ -204,7 +271,7 @@ h3 {
     left: 49.75%;
 }
 
-/* Circles after the timeline, dot dot dot*/
+/* Circles that act as pointers to TL*/
 .circle{
   margin-top: 1em;
   margin-left:auto;
@@ -223,8 +290,10 @@ h3 {
 .tlcontainer {
     position: relative;
     background-color: inherit;
-    width: 80%;
-    left:0;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1em;
 }
 
 /* The circles on the timeline */
@@ -233,7 +302,7 @@ h3 {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -14px;
+  right: -3%;
   background-color: #f2eee6;
   border: 5px solid #d54325;
   top: 15px;
@@ -241,30 +310,8 @@ h3 {
   z-index: 1;
 }
 
-
-.colA, .colB {
-    width: 600px; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.colB{
-  margin-top: 6em;
-}
-
-.tlA {
-    margin-bottom: 1em;
-    left: 20%;
-}
-
-.tlB {
-    margin-top: 0em;
-    margin-bottom: 4em;
-    
-}
-
 .tlB::after {
-    left:-.7em;
+    left:-2.5%;
 }
 
 /* Add cirles on right of left col of cards */
@@ -273,7 +320,7 @@ h3 {
   position: absolute;
   width: 10px;
   height: 10px;
-  right: 15px;
+  right:5%;
   top: 21px;
   z-index: 1;
   background-color: #693338;
@@ -286,7 +333,7 @@ h3 {
   position: absolute;
   width: 10px;
   height: 10px;
-  left: 20px;
+  left: 5%;
   top: 21px;
   z-index: 1;
   background-color: #693338;
@@ -297,11 +344,14 @@ h3 {
 
 /* The actual content */
 .content {
+  width: 80%;
   padding: 20px 30px;
   background-color: #f2eee6;
-  position: relative;
+  /* position: relative; */
   border-radius: 6px;
-  margin: 2.5em;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 
@@ -313,6 +363,9 @@ left: 0;
 transition: all ease-in 0.5s;
 
 }
+
+
+
 
 /* The share arrow */
 
@@ -389,11 +442,71 @@ right: 0;
 
 }
 
+.Alt{
+  border: 0px;
+  box-shadow: 0 0 0 #4e323d;
+  background-color: #e9c0b0
+}
+
+
 #hCircle{
   display: none;
 }
+
+
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 640px) {
+
+p{
+  display: none;
+}
+
+#par{
+  display:block;
+}
+
+h4, h5,{
+  font-size: 90%;
+}
+
+.content{
+
+  margin-left: 15%;
+
+}
+/* Change the grid */
+.container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+}
+
+/* Move right cirles */
+
+.tlA::before {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left:5%;
+  top: 21px;
+  z-index: 1;
+  background-color: #693338;
+  border-radius: 50%;
+}
+
+/* Change all the red circles to the left */
+.tlA::after, .tlB::after {
+    left:-1.5%;
+}
+
+/* Brown circles */
+
+.tlA::before, .tlB::before{
+  left: 7%;
+}
 
 /* Replace the triangle from the main card with a circle */
 .triangle{
@@ -403,7 +516,7 @@ right: 0;
 #hCircle{
   display: block;
   margin-left:1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .timeline::after{

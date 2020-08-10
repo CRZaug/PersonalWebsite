@@ -292,22 +292,23 @@ td{
   color: #f2eee6;
   padding: 1%;
   border-radius: 5px;
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 800px;
+
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
 
   border-top: 4px solid #d54325;
   border-left: 4px solid #d54325;
 
   text-align: center;
-
 }
 
 .cardContainer{
 
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
 
   grid-gap: 10px;
 
@@ -318,7 +319,7 @@ td{
   margin: 1%;
   margin-bottom: 4%;
   width: 300px;
-  min-height: 200px;
+  min-height: 250px;
   border-radius: 5px;
   box-shadow: 3px 3px 8px #4e323d;
   
@@ -363,6 +364,7 @@ td{
 
 .cardhover:hover{
   opacity: 1;
+
 }
 
 .gh {
@@ -403,7 +405,7 @@ td{
   background-color:#e9c0b0;
   border-radius: 5px;
   
-  width: 400px;
+  max-width: 400px;
   height: 100px;
   margin-left:auto;
   margin-right:auto;
@@ -444,25 +446,58 @@ td{
 .cardContainer{
 
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto auto;
+  /* 25% 25% 25% 25%a */
 
-  grid-gap: 50px;
+  grid-gap: 20px;
   justify-content: center;
-}
-}
-
-@media only screen and (max-width: 650px) {
   
-.cardContainer{
+  margin-left: 0%;
+  margin-right: 0%;
 
-  display: block;
 }
 
 .card {
+  justify-self: center;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  
+.cardContainer{
+  display: block;
+  height: 100%;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+
+#card5{
+  background-color: #693338;
+  color: #f2eee6;
+}
+
+#card6{
+  background-color: #e9c0b0;
+  color: #4e323d;
+}
+
+#card7{
+  background-color: #4e323d;
+  color: #f2eee6;
+}
+
+#card8{
+  background-color:  #d8746a;
+  color: #4e323d;
+}
+
+
 
 }
 

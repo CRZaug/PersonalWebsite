@@ -1,7 +1,11 @@
 <template>
 
   <div class="home" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <navigation1/>
+    <navigation1 v-if = "$mq === 'md'">
+    </navigation1>
+
+    <navigationmobile v-if = "$mq === 'sm'">
+    </navigationmobile>
     
     <section id = "intro">
       
@@ -34,18 +38,20 @@
 </template>
 
 <script>
-import navigation1 from '@/components/navigation1.vue'
-import intro from '@/components/intro.vue'
-import projectcards from '@/components/projectcards.vue'
-import about from '@/components/about.vue'
-import timeline from '@/components/timeline.vue'
-import contact from '@/components/contact.vue'
-import footer1 from '@/components/footer.vue'
+import navigation1 from '@/components/navigation1.vue';
+import navigationmobile from '@/components/navigationmobile.vue';
+import intro from '@/components/intro.vue';
+import projectcards from '@/components/projectcards.vue';
+import about from '@/components/about.vue';
+import timeline from '@/components/timeline.vue';
+import contact from '@/components/contact.vue';
+import footer1 from '@/components/footer.vue';
 
 
 export default {
   name: "Home",
   components: {
+    navigationmobile,
     navigation1,
     intro,
     about,

@@ -4,6 +4,9 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+import VueMq from 'vue-mq';
+
+
 
 // I did this
 import {BootstrapVue, IconsPlugin} from "bootstrap-vue";
@@ -54,6 +57,14 @@ Vue.component('font-awesome-layers-text', FontAwesomeLayersText);
 // I did this
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+
+// Vue MQ
+Vue.use(VueMq, {
+  breakpoints: {
+    sm: 800,
+    md: 1250
+  }
+})
 
 // They did this
 Vue.config.productionTip = false;

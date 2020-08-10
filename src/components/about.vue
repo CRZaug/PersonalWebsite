@@ -132,6 +132,8 @@ p {
     align-items: center;
     flex: wrap;
     margin-bottom: 10em;
+
+    height: 100%
 }
 
 
@@ -192,12 +194,15 @@ margin-bottom: 0.75em;
 /* Media breakpoint */
 @media only screen and (max-width: 1000px) {
 
-
+h2, p{
+    height: 100%;
+}
 .about{
     flex-direction: column;
 }
 
 .paragraph{
+    height: 100%;
     width:80%;
     left:0;
 }
