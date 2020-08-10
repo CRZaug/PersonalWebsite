@@ -27,6 +27,7 @@
 
 body {
     margin-bottom: 3em;
+    background-color: #f2eee6;
     
 }
 

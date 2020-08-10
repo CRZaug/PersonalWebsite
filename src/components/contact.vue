@@ -79,7 +79,10 @@ body:before {
 .content {
     position: relative;
     text-align: center;
-    padding: 7%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
 
     background-color: #693338;
     color: #f2eee6;
@@ -149,15 +152,27 @@ body:before {
 @media only screen and (max-width: 1000px) {
 
 
-.links{
-    justify-content: space-between;
-}
+
 
 }
 
 @media only screen and (max-width: 600px) {
+
+.links{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .content{
     border-left: 0;
+    padding-bottom: 15%;
 }
+
+
+
+
+
 }
 </style>

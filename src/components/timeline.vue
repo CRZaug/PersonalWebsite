@@ -531,6 +531,11 @@ h4, h5,{
 }
 
 
+/* Fix box shadow */
+
+.opportunity-content{
+  box-shadow: 0 0 0 #4e323d;
+}
 
 }
 
