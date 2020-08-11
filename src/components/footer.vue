@@ -32,6 +32,15 @@ a:hover {
     padding-left: 5%;
     padding-bottom: 1em;
     background-color: #4e323d;
+    height: 2em;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+#footer{
     height: 4em;
+}
+
 }
 </style>

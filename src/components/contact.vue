@@ -4,12 +4,14 @@
             <div class = "content">
                 <h2> Say hello! </h2>
 
-                <p> Connect with me on LinkedIn or see my resume for my contact information. </p>
+                <p> Connect with me on LinkedIn </p>
+                <p> (Or download my resume for my contact information.)</p>
                 <div class = "linkedin">
                     <a href = "https://www.linkedin.com/in/crzaug/">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" :style="{ color: '#f2eee6' }"/>
                     </a>
                 </div>
+                
             </div>
             <div class = "work">
                 <h4> Want to see more of my work? </h4>
@@ -145,6 +147,7 @@ p{
 
 .linkedin{
     margin-top: 1em;
+
     transition: all .2s ease-in-out;
 }
 

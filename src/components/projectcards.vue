@@ -32,7 +32,7 @@
           </table>
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> Check it out on Github! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/PersonalWebsite" target = "_blank">Check it out on Github!</a> </p>
         </div>
       </div>
 
@@ -152,7 +152,7 @@
             </tr>
             <tr>
               <th>WHY</th>
-              <td>We had the tools in advanced physics lab, so why not??</td>
+              <td>It is incredible to be able to measure the speed of light inside a lab!</td>
             </tr>
             <tr>
               <th>HOW</th>
@@ -469,6 +469,7 @@ a:hover{
 } */
 
 .circleContainer{
+  margin-top: 3em;
   display: flex;
   justify-content: center;
 }

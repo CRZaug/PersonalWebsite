@@ -13,9 +13,7 @@
                     <br>
                         Want to know more about my experience? Check out my resume!
                   </p>
-                  <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                  
             </div>
               <div class = triangle-container><div class = "triangle"></div></div>
 
@@ -33,14 +31,12 @@
                     <h4>Software Engineering and Development Intern</h4>
                     <h5>Creative Creek</h5>
                     <h6>2020-present</h6>
-                    <p class = "moreInfo">Dipping my toes into software engineering.
+                    <p class = "moreInfo">Dipping my toes into software engineering
                         <br>
                         <br>
                         Working with Python, C++, and SQL to write algorithms and query databases in support of financial software development
                     </p>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -55,9 +51,7 @@
                         Teaching over 175 young women HTML, CSS, and Javascript while building lasting community 
 
                     </p>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                     </div>
                 </div>
 
@@ -71,9 +65,7 @@
                     I obtained a dual degree in mathematics and physics and minored in Chinese
          
                      </p>
-                     <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                     
                 </div>    
             </div>
 
@@ -82,9 +74,7 @@
                     <h4>Picked up guitar</h4>
         
                     <h6>2020</h6>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                     </div>
                 </div>
 
@@ -98,9 +88,7 @@
                         <br>
                         I demonstrated the utility of novel tools for undergraduate physics labs. Check out the results in <a href = "https://aapt.scitation.org/doi/abs/10.1119/10.0001269" target="_blank"><i>American Journal of Physics</i></a>
                          </p>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                   
                     </div>
                 </div>
              <div class = "tlcontainer tlB">
@@ -108,9 +96,7 @@
                     <h4>Started bouldering</h4>
         
                     <h6>2019</h6>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                   </div>
                 </div> 
             
@@ -125,9 +111,7 @@
                     <br>
                     My work resulted in an invited talk at the University of Washington and an award for best poster at a 2019 SIAM sectional meeting
                      </p>
-                     <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                     
                 </div>    
             </div>
 
@@ -139,11 +123,9 @@
                     <p class = "moreInfo">Provided educational support to the wonderful students of Bailey Gatzert Elementary School
                     <br>
                     <br>
-                    I worked in classrooms as a teacher's aide, ran an after school program, and planned and built the <a href = "https://www.seattleu.edu/scieng/math/community-outreach/sum-corps/" target="_blank"> SUM Corps website</a>.
+                    I worked in classrooms as a teacher's aide, ran an after school program, and planned and built the <a href = "https://www.seattleu.edu/scieng/math/community-outreach/sum-corps/" target="_blank"> SUM Corps website</a>
                     </p>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                     </div>
                 </div>
 
@@ -164,9 +146,7 @@
 
                     My two summers at LLNL taught me how to approach large, complicated problems through independent learning
                      </p>
-                     <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                     
                 </div>
             </div>
 
@@ -175,9 +155,7 @@
                     <h4>Began playing piano</h4>
         
                     <h6>2016</h6>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                   </div>
             </div>
 
@@ -186,9 +164,7 @@
                     <h4>Started learning Chinese</h4>
         
                     <h6>2012</h6>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
+                    
                   </div>
                   </div>
 
@@ -231,7 +207,7 @@ a{
 }
 
 a:hover{
-  color: #e9c0b0;
+  color: #d54325;
 }
 
 /* The extensive styling for the timeline comes below */
@@ -459,6 +435,9 @@ right: 0;
   display: block;
 }
 
+.tlB{
+  margin-top: 0em;
+}
 
 h4, h5,{
   font-size: 90%;
