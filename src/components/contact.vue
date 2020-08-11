@@ -4,7 +4,7 @@
             <div class = "content">
                 <h2> Say hello! </h2>
 
-                <p> Connect with me on LinkedIn or see my résumé for my contact information. </p>
+                <p> Connect with me on LinkedIn or see my resume for my contact information. </p>
                 <div class = "linkedin">
                     <a href = "https://www.linkedin.com/in/crzaug/">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" :style="{ color: '#f2eee6' }"/>
@@ -25,25 +25,37 @@
 
             <div class = "links">
                     <div class ="linkIcons">
-                            <a href="https://www.overleaf.com/" target="_blank">
-                                <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#4e323d' }" />
-                            </a>
-                    </div>
                         
-                    <div class = "linkIcons"> 
-                        <a href="https://github.com/CRZaug" target="_blank">
-                            <font-awesome-icon :icon="['fab', 'github']" size="3x" :style="{ color: '#4e323d' }"/>
-                        </a>
+                            <a href="/Camille_Zaug_Resume_July_2020.pdf" download>
+                                <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#f2eee6' }" />
+                            </a>
+                            <p>Resume</p>
                     </div>
+
+                       
+    
+                    <div class = "linkIcons"> 
+                        
+                        <a href="https://github.com/CRZaug" target="_blank">
+                            <font-awesome-icon :icon="['fab', 'github']" size="3x" :style="{ color: '#f2eee6' }"/>
+                        </a>
+                        <p>GitHub</p>
+                    </div>
+
+                    
                     <div class = "linkIcons"> 
                         <a href="https://glitch.com/@camille.zaug" target="_blank">
-                            <font-awesome-icon icon="fish" size="3x" :style="{ color: '#4e323d' }"/>
+                            <font-awesome-icon icon="fish" size="3x" :style="{ color: '#f2eee6' }"/>
                         </a>
+                        <p>Glitch</p>
+
                     </div>
-                    <div class = "linkIcons" target="_blank"> 
-                        <a href = "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4e9juNtDe0KuhTfdLumk4y-vepbccEnJ1umz_lA06XMx8FeBr29UT51rlMULoA-4rOHZXsShRt56sxKEpSiZ-KMVq1lV3uQbS0cB6-E_rq2ZBSGk4&user=iy1IEsMAAAAJ">
-                            <font-awesome-icon icon="book" size="3x" :style="{ color: '#4e323d' }"/>
+                    <div class = "linkIcons" > 
+                        
+                        <a href = "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4e9juNtDe0KuhTfdLumk4y-vepbccEnJ1umz_lA06XMx8FeBr29UT51rlMULoA-4rOHZXsShRt56sxKEpSiZ-KMVq1lV3uQbS0cB6-E_rq2ZBSGk4&user=iy1IEsMAAAAJ" target="_blank">
+                            <font-awesome-icon icon="book" size="3x" :style="{ color: '#f2eee6' }"/>
                         </a>
+                        <p>Scholar</p>
                     </div>
 
                 </div>
@@ -66,6 +78,11 @@ body:before {
     height:5em;
     margin-top:-5em;
 
+}
+
+p{
+    margin: 0;
+    color: #f2eee6;
 }
 
 .seeMore{
@@ -124,7 +141,10 @@ body:before {
     justify-content: space-evenly;
 }
 
+
+
 .linkedin{
+    margin-top: 1em;
     transition: all .2s ease-in-out;
 }
 
@@ -133,9 +153,10 @@ body:before {
 }
 
 .linkIcons {
-    width: 65px;
-    height: 65px;
+    width: 90px;
+    height: 90px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #d54325;
@@ -144,26 +165,22 @@ body:before {
     transition: all .2s ease-in-out
 }
 
+
 .linkIcons:hover{
     transform: scale(1.1);
 }
 
 
-@media only screen and (max-width: 1000px) {
-
-
-
-
-}
 
 @media only screen and (max-width: 600px) {
 
 .links{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
     display: flex;
     justify-content: space-between;
 }
+
 
 .content{
     border-left: 0;

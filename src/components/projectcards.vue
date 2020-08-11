@@ -1,5 +1,5 @@
 <template>
-<body>
+<body onclick>
 
     <div class = "cIntro">
 
@@ -14,12 +14,16 @@
         <div>
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>Built a static webpage by hand as an interactive resume to showcase my work</td>
+            </tr>
+            <tr>
               <th>WHY</th>
               <td>Spare time during lockdown to check a goal off the list</td>
             </tr>
             <tr>
               <th>HOW</th>
-              <td>Vue.js</td>
+              <td>Vue.js, JavaScript, HTML, CSS</td>
             </tr>
             <tr>
               <th>WHEN</th>
@@ -28,7 +32,7 @@
           </table>
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> Check it out on Github! </p>
         </div>
       </div>
 
@@ -42,8 +46,12 @@
         <div>
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>Applied advanced logistic regression to predict housing prices from large data</td>
+            </tr>
+            <tr>
               <th>WHY</th>
-              <td>Apply statistical learning to real-world data and test results</td>
+              <td>Explore how statistical modeling tools hold up to real-world data</td>
             </tr>
             <tr>
               <th>HOW</th>
@@ -59,7 +67,7 @@
 
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/Math3910KaggleRegression" target="_blank"> Check it out on Github! </a></p>
         </div>
       </div>
 
@@ -72,8 +80,12 @@
         <div>
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>Numerically solved nonlinear partial differential equations with ocean data as initial conditions (senior thesis)</td>
+            </tr>
+            <tr>
               <th>WHY</th>
-              <td>Ocean waves are fascinating and beautiful (also my senior thesis!)</td>
+              <td>Ocean waves and Fourier transforms are fascinating</td>
             </tr>
             <tr>
               <th>HOW</th>
@@ -87,7 +99,7 @@
 
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'smile']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Arxiv! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'smile']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://arxiv.org/abs/2005.06635" target = "_blank">Check it out on Arxiv! </a></p>
         </div>
       </div>
 
@@ -102,8 +114,13 @@
 
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>A short, online coronavirus-themed Buzzfeed-style personality quiz </td>
+            </tr>
+            <tr>
+            <tr>
               <th>WHY</th>
-              <td>For an inside joke inspired by Girls Who Code student</td>
+              <td>Inspired by a Girls Who Code student</td>
             </tr>
             <tr>
               <th>HOW</th>
@@ -117,7 +134,7 @@
 
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'fish']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Glitch! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'fish']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://glitch.com/~who-are-you-quiz" target = "_blank">Check it out on Glitch! </a> </p>
         </div>
       </div> 
 
@@ -130,22 +147,26 @@
         <div>
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>Measured the speed of light in a laboratory setting</td>
+            </tr>
+            <tr>
               <th>WHY</th>
               <td>We had the tools in advanced physics lab, so why not??</td>
             </tr>
             <tr>
               <th>HOW</th>
-              <td>Oscilloscopes, Pyhon, MATLAB</td>
+              <td>Oscilloscopes, Python, MATLAB</td>
             </tr>
             <tr>
               <th>WHEN</th>
-              <td>Winter 2019</td>
+              <td>Winter 2018</td>
             </tr>
           </table>
          
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="1x" :style="{ color: '#f2eee6' }"/> Check out the report! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="2x" :style="{ color: '#4e323d' }"/> <a href="/measuring-speed-light.pdf" download>Download the report!</a> </p>
         </div>
       </div> 
 
@@ -159,6 +180,10 @@
           <table>
             <tr>
               <th>WHY</th>
+              <td>A simple GUI and program to allow users to adjust the timbre of different notes</td>
+            </tr>
+            <tr>
+              <th>WHY</th>
               <td>Explore personal interest in music and Fourier transforms</td>
             </tr>
             <tr>
@@ -167,13 +192,13 @@
             </tr>
             <tr>
               <th>WHEN</th>
-              <td>Spring 2020 (Locked-down spring break)</td>
+              <td>Spring 2020</td>
             </tr>
           </table>
         
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/SynthesizerProject" target = "_blank">Check it out on Github! </a></p>
         </div>
       </div> 
 
@@ -187,8 +212,12 @@
         <div>
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>Implemented the Arnoldi iteration algorithm to find eigenvalues and solve the heat equation</td>
+            </tr>
+            <tr>
               <th>WHY</th>
-              <td>Practice numerical methods on large matrices</td>
+              <td>Practice numerical linear algebra on large matrices </td>
             </tr>
             <tr>
               <th>HOW</th>
@@ -202,25 +231,29 @@
           
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "Arnoldi_Iteration_Report.pdf" download> Download the report! </a> </p>
         </div>
       </div> 
 
     </div>
 
     <div class = "card" id = "card8">
-       <h3> Data Structures and Algorithms </h3>
+       <h3> <i>Cracking the Coding Interview</i> Problems </h3>
        
       <div class = "cardhover" id = "hcard8">
         <div>
           <table>
             <tr>
+              <th>WHAT</th>
+              <td>Practice implementing data structures and designing algorithms</td>
+            </tr>
+            <tr>
               <th>WHY</th>
-              <td>Play with fun CS problems while preparing for my next step!</td>
+              <td>Play with fun CS problems while learning useful tools!</td>
             </tr>
             <tr>
               <th>HOW</th>
-              <td><i>Cracking the Coding Interview</i>, Python, C, C++</td>
+              <td> Python, C, C++</td>
             </tr>
             <tr>
               <th>WHEN</th>
@@ -231,7 +264,7 @@
         
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="1x" :style="{ color: '#f2eee6' }"/> Check it out on Github! </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/Misc" target = "_blank"> Check it out on Github! </a> </p>
         </div>
       </div> 
 
@@ -251,9 +284,9 @@
     <div class = "circle"></div>
   </div>
 
-  <div class = "end">
+  <!-- <div class = "end">
     <h4> More to come!</h4>
-  </div>
+  </div> -->
 
   
 
@@ -349,8 +382,9 @@ td{
   left:0;
   width: 100%;
   height: 100%;
-  background-color: #4e323d;
-  color: #f2eee6;
+  background-color: #f2eee6;
+
+  color: #4e323d;
   opacity: 0;
   transition: all ease-in 0.5s;
   text-align: left;
@@ -371,37 +405,50 @@ td{
   text-align: center;
 }
 
+a{
+  text-align: center;
+  color:#d8746a;
+}
+
+a:hover{
+  color: #d54325;
+}
 
 #card1, #card8 {
   background-position: center;
-  border-bottom: 4px solid #d54325;
+  border-bottom: 4px solid c;
   border-right: 4px solid #d54325;
   background-color: #693338;
+
   color: #f2eee6;  
 }
 
 
 #card2,#card7 {
     background-color: #e9c0b0;
+
     border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
 }
 #card3, #card6 {
     background-color: #4e323d;
+
     border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
     color: #f2eee6;
 }
 #card4, #card5 {
     background-color: #d8746a;
+
     border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
 }
 
 
-
+/* 
 .end {
   color: #4e323d;
+  
   background-color:#e9c0b0;
   border-radius: 5px;
   
@@ -419,7 +466,7 @@ td{
   justify-content: center;
   align-items: center;
 
-}
+} */
 
 .circleContainer{
   display: flex;
@@ -448,7 +495,7 @@ td{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto auto;
-  /* 25% 25% 25% 25%a */
+
 
   grid-gap: 20px;
   justify-content: center;
@@ -472,7 +519,8 @@ td{
 }
 
 .card {
-  width: 100%;
+  max-width: 100%;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
 }

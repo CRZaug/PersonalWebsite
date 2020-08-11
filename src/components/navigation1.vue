@@ -10,7 +10,7 @@
             <a href = "#projectcards">Projects</a>
             <a href = "#timeline">Experience</a>
             <a href = "#contact">Contact</a>
-            <a href = "../assets/Camille_Zaug_Resume_July_2020.pdf" target = "_blank" download> Resume </a>
+            <a href="/Camille_Zaug_Resume_July_2020.pdf" download>Resume</a>
             </div>
 
     </nav>

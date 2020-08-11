@@ -1,8 +1,8 @@
 <template>
     <body>
         <div id = "footer">
-        <h4> Thanks for stopping by! </h4>
-        <a href = "#intro"> Back to top </a>
+        <!-- <h4> Thanks for stopping by! </h4>
+        <a href = "#intro"> Back to top </a> -->
         </div>
     </body>
 </template>
@@ -32,5 +32,6 @@ a:hover {
     padding-left: 5%;
     padding-bottom: 1em;
     background-color: #4e323d;
+    height: 4em;
 }
 </style>

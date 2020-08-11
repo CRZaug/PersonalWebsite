@@ -77,7 +77,7 @@
                  <h6> Piano and guitar </h6> 
             </div>
             <div class ="bullet">
-                <font-awesome-icon   icon = "trophy" size = "2x" :style="{ color: '#4e323d' }"/> 
+                <font-awesome-icon   icon = "baseball-ball" size = "2x" :style="{ color: '#4e323d' }"/> 
                  <h6> Tennis</h6> 
             </div>
             

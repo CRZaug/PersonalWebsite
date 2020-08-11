@@ -1,7 +1,7 @@
 // Later, add some cute little things I've done as well! Quarantine cooking, picking up piano, etc
 
 <template>
-<body>
+<body onclick>
     <div class = "c">
       <div id ="opportunity">
           <div class ="opportunity-content">
@@ -33,10 +33,10 @@
                     <h4>Software Engineering and Development Intern</h4>
                     <h5>Creative Creek</h5>
                     <h6>2020-present</h6>
-                    <p>Dipping my toes into software engineering and design
+                    <p class = "moreInfo">Dipping my toes into software engineering.
                         <br>
                         <br>
-                        Working with Python and SQL to write algorithms and query databases in support of financial software development
+                        Working with Python, C++, and SQL to write algorithms and query databases in support of financial software development
                     </p>
                     <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
@@ -49,10 +49,10 @@
                     <h4>Computer Science Instructor</h4>
                     <h5>Girls Who Code </h5>
                 <h6>Summer 2020</h6>
-                    <p>Combing my passions of equitable equcation and STEM
+                    <p class = "moreInfo">Combing my passions of equitable equcation and STEM
                         <br>
                         <br>
-                        Teaching over 310 young women HTML, CSS, and Javascript while building lasting community 
+                        Teaching over 175 young women HTML, CSS, and Javascript while building lasting community 
 
                     </p>
                     <div class = "overturn">
@@ -65,10 +65,11 @@
                 <div class = "content A">
                 <h4>Seattle University Graduate</h4>
                 <h6>2016-2020</h6>
-                <p>I graduated during the pandemic, so it feels like graduation never happened.
+                <p class = "moreInfo">I graduated <i> summa cum laude</i> during the pandemic
                     <br>
                     <br>
-                    I studied mathematics, physics, and Chinese and graduated <i> summa cum laude</i>.
+                    I obtained a dual degree in mathematics and physics and minored in Chinese
+         
                      </p>
                      <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
@@ -91,11 +92,11 @@
                     <div class = "content A">
                     <h4>First Publication</h4>
                 <h6>Spring 2020</h6>
-                    <p>During the winter and spring of 2019, I conducted research developing precision instruments for physics lab students
+                    <p class = "moreInfo">My team published work stemming from an advanced physics lab project
                         
                         <br>
                         <br>
-                        Check out the result here!
+                        I demonstrated the utility of novel tools for undergraduate physics labs. Check out the results in <a href = "https://aapt.scitation.org/doi/abs/10.1119/10.0001269" target="_blank"><i>American Journal of Physics</i></a>
                          </p>
                     <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
@@ -119,10 +120,10 @@
                 <h4>Applied Math Research Assistant</h4>
                 <h5>Seattle University </h5>
                 <h6>2018-2020</h6>
-                <p> I studied nonlinear waves and the propagation of swell across the Pacific ocean
+                <p class = "moreInfo"> Modeling ocean waves sparked my lasting interest in scientific computing
                     <br>
                     <br>
-                    My involvement in scientific computing through this project sparked my interest in CS!
+                    My work resulted in an invited talk at the University of Washington and an award for best poster at a 2019 SIAM sectional meeting
                      </p>
                      <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
@@ -135,10 +136,10 @@
                     <h4>Team Lead</h4>
                     <h5>Seattle University Mathematics Corps</h5>
                     <h6>2018-2020</h6>
-                    <p>Provided support to students at Bailey Gatzert Elementary School
+                    <p class = "moreInfo">Provided educational support to the wonderful students of Bailey Gatzert Elementary School
                     <br>
                     <br>
-                    Worked in classrooms and ran an after school program. Created the SUM corps website! Found here:
+                    I worked in classrooms as a teacher's aide, ran an after school program, and planned and built the <a href = "https://www.seattleu.edu/scieng/math/community-outreach/sum-corps/" target="_blank"> SUM Corps website</a>.
                     </p>
                     <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
@@ -146,35 +147,38 @@
                     </div>
                 </div>
 
+            
+
+            
+
             <div class = "tlcontainer tlA">
-                  <div class = "content Alt A">
-                    <h4>Began playing piano (again!)</h4>
-        
-                    <h6>2017</h6>
-                    <div class = "overturn">
-                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
-                    </div>
-                  </div>
-            </div>
-
-
-            <div class = "tlcontainer tlB">
-                <div class = "content B">
+                <div class = "content A">
                 <h4>Materials Science Intern</h4>
                 <h5>Lawrence Livermore National Laboratory </h5>
                 <h6>2016-2017</h6>
-                <p> Conducting research in materials science provided my first experience Conducting
+                <p class = "moreInfo">Writing MATLAB scripts to process images of nanoparticles was my first experience coding
                     
 
                     <br>
                     <br>
 
-                    Starting at hopelessly complicated image processing scripts in MATLAB and learning Python was so worth it.
+                    My two summers at LLNL taught me how to approach large, complicated problems through independent learning
                      </p>
                      <div class = "overturn">
                       <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
                     </div>
                 </div>
+            </div>
+
+            <div class = "tlcontainer tlB">
+                  <div class = "content Alt B">
+                    <h4>Began playing piano</h4>
+        
+                    <h6>2016</h6>
+                    <div class = "overturn">
+                      <font-awesome-icon icon = "share" size = "1.5x" :style="{ color: '#4e323d' }"/>
+                    </div>
+                  </div>
             </div>
 
             <div class = "tlcontainer tlA">
@@ -187,25 +191,9 @@
                     </div>
                   </div>
                   </div>
+
+            
             </div>
-
-            
-
-            
-
-                
-
-                
-                
-               
-
-                 
-                
-                
-
-                
-           
-        
 
     </div>
       <div class = "circle"></div>
@@ -238,6 +226,14 @@ h3 {
     color: #f2eee6;
 }
 
+a{
+  color: #d8746a;
+}
+
+a:hover{
+  color: #e9c0b0;
+}
+
 /* The extensive styling for the timeline comes below */
 .c {
     background-color: inherit;
@@ -251,13 +247,13 @@ h3 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
-
+  justify-content: stretch;
+  
 }
 
 .timeline{
     position: relative;
-    margin: 0 auto;
-
+ 
 }
 
 /* Timeline */
@@ -292,27 +288,20 @@ h3 {
     background-color: inherit;
     width: 100%;
     justify-self: center;
-    align-self: center;
+    /* align-self: center; */
     margin-bottom: 1em;
 }
 
-/* The circles on the timeline */
-.tlcontainer::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -3%;
-  background-color: #f2eee6;
-  border: 5px solid #d54325;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
+.tlA{
+  align-self: start;
 }
 
-.tlB::after {
-    left:-2.5%;
+.tlB{
+  margin-top: 4em;
+  align-self: end;
 }
+
+
 
 /* Add cirles on right of left col of cards */
 .tlA::before {
@@ -393,6 +382,7 @@ box-shadow: 3px 3px 8px #4e323d;
 transition: all ease-in 0.5s;
 right: 0;
 }
+
 .B:hover{
   right: 1%;
 
@@ -406,11 +396,10 @@ right: 0;
 }
 
 
-
 .opportunity-content {
   text-align: center;
   padding: 20px 20px;
-  background-color: #d8746a;
+  background-color: #693338;
   border-radius: 6px;
   max-width: 600px;
   /* margin-bottom: 1em; */
@@ -436,7 +425,7 @@ right: 0;
   z-index: 1;
   border: medium solid white;
   border-width: 20px 20px 0px 20px;
-  border-color: #d8746a transparent transparent transparent;
+  border-color: #693338 transparent transparent transparent;
 
 
 
@@ -456,15 +445,20 @@ right: 0;
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
 
-p{
+.moreInfo{
   display: none;
 }
 
-#par{
-  display:block;
+.A:hover > .moreInfo{
+  display: block;
 }
+
+.B:hover > .moreInfo{
+  display: block;
+}
+
 
 h4, h5,{
   font-size: 90%;
@@ -477,6 +471,7 @@ h4, h5,{
 }
 /* Change the grid */
 .container{
+  justify-self: center;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -515,7 +510,35 @@ h4, h5,{
 
 #hCircle{
   display: block;
-  margin-left:1em;
+  margin-left:10.1%;
+  margin-bottom: 1em;
+}
+
+.timeline::after{
+
+    left: 10%;
+}
+
+/* Circles after the timeline, dot dot dot*/
+.circle{
+  margin-left:10.1%;
+  margin-right:0;
+}
+
+
+/* Fix box shadow */
+
+.opportunity-content{
+  box-shadow: 0 0 0 #4e323d;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+#hCircle{
+  display: block;
+  margin-left:0.9em;
   margin-bottom: 1em;
 }
 
@@ -526,16 +549,11 @@ h4, h5,{
 
 /* Circles after the timeline, dot dot dot*/
 .circle{
-  margin-left:.9em;
+  margin-left:0.9em;
   margin-right:0;
 }
 
 
-/* Fix box shadow */
-
-.opportunity-content{
-  box-shadow: 0 0 0 #4e323d;
-}
 
 }
 

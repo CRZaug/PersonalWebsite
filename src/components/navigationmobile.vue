@@ -27,6 +27,7 @@
       <a href="#about"><li>About</li></a>
       <a href="#projectcards"><li>Projects</li></a>
       <a href="#timeline"><li>Experience</li></a>
+      <a href="/Camille_Zaug_Resume_July_2020.pdf" download><li>Resume</li></a>
     </ul>
   </div>
 </nav>
@@ -63,9 +64,9 @@ nav{
 #menuToggle
 {
   display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
+  position: fixed;
+  top: 70px;
+  left: 10px;
   
   z-index: 4;
   
@@ -206,7 +207,8 @@ nav{
 
 #menuToggle span{
 
-  background: #f2eee6;
+  background: #d8746a;
+  box-shadow: 0px 0px 8px #4e323d;
 }  
 
 }
