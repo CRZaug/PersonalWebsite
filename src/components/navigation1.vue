@@ -2,7 +2,7 @@
 <body>
     <nav class = "navbar">
 
-                 <img src = "../assets/IMG_2768.jpeg" alt = "from Taylor" id = "introPic" width="30px" />
+                 <!-- <img src = "../assets/IMG_2768.jpeg" alt = "from Taylor" id = "introPic" width="30px" /> -->
             
                 <a href = "#intro" ><h4 id= "name">Camille Renee Zaug</h4></a>
             <div>
@@ -44,8 +44,9 @@ a:hover {
     width: 100%; /* Full width */
     z-index:2;
 
-    padding-top: 0.5em;
-    padding-bottom: 0.75em;
+    padding-top: 0.75em;
+    padding-bottom: 0.5em;
+    padding-left: 0%;
 
     display: flex;
     justify-content: flex-start;

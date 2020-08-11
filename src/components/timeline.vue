@@ -192,7 +192,7 @@ body:before {
     display:block;
     position: relative;
     width:0;
-    height:5em;
+    height:10em;
     margin-top:-5em;
 
 }

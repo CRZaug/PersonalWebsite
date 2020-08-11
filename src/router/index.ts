@@ -11,17 +11,7 @@ Vue.use(VueRouter)
     path: '/',
     name: 'home',
     component: Home
-  },
-  {
-    path: '/About',
-    name: 'about',
-    component: About
-  },
-  {
-    path: '/Portfolio',
-    name: 'portfolio1',
-    component: Portfolio1
-  },
+  }
 
 
   

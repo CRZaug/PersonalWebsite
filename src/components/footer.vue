@@ -36,11 +36,11 @@ a:hover {
 }
 
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
 
 #footer{
     height: 4em;
 }
 
-}
+} */
 </style>

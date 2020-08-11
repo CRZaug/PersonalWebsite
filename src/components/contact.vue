@@ -77,7 +77,7 @@ body:before {
     display:block;
     position: relative;
     width:0;
-    height:5em;
+    height:10em;
     margin-top:-5em;
 
 }
@@ -88,7 +88,7 @@ p{
 }
 
 .seeMore{
-    height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,12 +100,12 @@ p{
     text-align: center;
     padding-top: 7%;
     padding-bottom: 7%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 
     background-color: #693338;
     color: #f2eee6;
-    max-width: 600px;
+    max-width: 800px;
     max-height: 50%;
     border-radius: 5px;
     border-top: 8px solid #d54325;
@@ -136,6 +136,7 @@ p{
 
 .links {
     margin-top: 2em;
+    margin-bottom: 4em;
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 3em;
@@ -186,7 +187,6 @@ p{
 
 
 .content{
-    border-left: 0;
     padding-bottom: 15%;
 }
 

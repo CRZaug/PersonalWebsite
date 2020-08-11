@@ -65,8 +65,8 @@ nav{
 {
   display: block;
   position: fixed;
-  top: 70px;
-  left: 10px;
+  top: 40px;
+  left: 20px;
   
   z-index: 4;
   
