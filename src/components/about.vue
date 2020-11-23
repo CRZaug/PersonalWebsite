@@ -8,25 +8,30 @@
             <h2> A little about me </h2>
             <br>
 
+            
             <div class = "aboutA">
-                <font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/>
+                <div class = "icon"><font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/></div>
+                <p> <b>Applied mathematics Ph.D student</b> 
+                <br>
+                 University of Washington</p>
+            </div>
+            <br>
+            <div class = "aboutB">
+                <div class = "icon"><font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> <b>2020 Seattle University graduate</b>, <i>summa cum laude</i>
                     <br>
                     B.S. Mathematics, B.A. Physics, Chinese minor
                      </p>
             </div>
             <br>
-            <div class = "aboutB">
-                <font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/>
-                <p> <b>Software engineering intern</b> with Creative Creek
-                    <br>
-                    <b>Instructor</b> with Girls Who Code</p>
-                </div>
-                <br>
             <div class = "aboutA">
-                <font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/>
-                <p> <b>Applied mathematics graduate student</b> at the University of Washington starting fall 2020</p>
+                <div class = "icon"><font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/></div>
+                <p> <b>Software engineering intern</b> with Creative Creek summer 2020
+                    <br>
+                    <b>Instructor</b> with Girls Who Code summer 2020</p>
             </div>
+                
+            
         
            
 
@@ -178,6 +183,10 @@ p {
 .aboutA, .aboutB{
     display: flex;
     flex-direction: row;
+}
+
+.icon{
+    width: 3em;
 }
 
 .bullet{

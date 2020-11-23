@@ -11,7 +11,7 @@
 
                     <br>
                     <br>
-                        Want to know more about my experience? Check out my resume!
+                        Want to know more about my experience? Check out my <a href="/Camille_Zaug_Resume_July_2020.pdf" download> resume!</a>
                   </p>
                   
             </div>
@@ -26,51 +26,70 @@
           <div class = "timeline">
             <div class = "container">
 
-                <div class = "tlcontainer tlA">
-                    <div class = "content A">
+            <div class = "tlcontainer tlA">
+                <div class = "content A">
+                    <h4>Applied Mathematics Ph.D Student</h4>
+                    <h5>University of Washington</h5>
+                    <h6>2020-present</h6>
+                    <p class = "moreInfo"> Growing my mathematical background, exploring new fields, and teaching calculus
+                        <br>
+                        <br>
+                        Current coursework:
+                        <ul>
+                          <li> Intro to Probability and Random Processes </li>
+                          <li> Applied Complex Analysis </li>
+                          <li> Applied Linear Algebra and Introductory Numerical Analysis <a href = "https://github.com/CRZaug/AMATH584" target = "_blank"> <font-awesome-icon :icon="['fab', 'github']" size="1x" /> </a></li>
+                        </ul>
+                    </p>
+                </div>
+              </div>
+
+
+
+              <div class = "tlcontainer tlB">
+                <div class = "content B">
                     <h4>Software Engineering and Development Intern</h4>
                     <h5>Creative Creek</h5>
-                    <h6>2020-present</h6>
-                    <p class = "moreInfo">Dipping my toes into software engineering
+                    <h6>Summer-Fall 2020</h6>
+                    <p class = "moreInfo">Dipped my toes into software engineering 
                         <br>
                         <br>
                         Working with Python, C++, and SQL to write algorithms and query databases in support of financial software development
                     </p>
-                    
                 </div>
-            </div>
+              </div>
 
-            <div class = "tlcontainer tlB">
-                    <div class = "content B">
+            <div class = "tlcontainer tlA">
+                    <div class = "content A">
                     <h4>Computer Science Instructor</h4>
                     <h5>Girls Who Code </h5>
                 <h6>Summer 2020</h6>
-                    <p class = "moreInfo">Combing my passions of equitable equcation and STEM
+                    <p class = "moreInfo">Combined my passions of equitable equcation, coding, and STEM
                         <br>
                         <br>
-                        Teaching over 175 young women HTML, CSS, and Javascript while building lasting community 
+                        Taught over 175 young women HTML, CSS, and Javascript while building lasting community 
 
                     </p>
                     
                     </div>
                 </div>
 
-            <div class = "tlcontainer tlA">
-                <div class = "content A">
+            <div class = "tlcontainer tlB">
+                <div class = "content B">
                 <h4>Seattle University Graduate</h4>
                 <h6>2016-2020</h6>
                 <p class = "moreInfo">I graduated <i> summa cum laude</i> during the pandemic
                     <br>
                     <br>
-                    I obtained a dual degree in mathematics and physics and minored in Chinese
+                    I earned dual degree in mathematics and physics and minored in Chinese and received the <a href = "https://www.seattleu.edu/newsroom/stories/student-awards.html" target = "_blank">President's Award</a> for my academic achievement 
          
                      </p>
                      
                 </div>    
             </div>
 
-            <div class = "tlcontainer tlB">
-                    <div class = "content Alt B">
+            <div class = "tlcontainer tlA">
+                    <div class = "content Alt A">
                     <h4>Picked up guitar</h4>
         
                     <h6>2020</h6>
@@ -78,8 +97,8 @@
                     </div>
                 </div>
 
-            <div class = "tlcontainer tlA">
-                    <div class = "content A">
+            <div class = "tlcontainer tlB">
+                    <div class = "content B">
                     <h4>First Publication</h4>
                 <h6>Spring 2020</h6>
                     <p class = "moreInfo">My team published work stemming from an advanced physics lab project
@@ -91,8 +110,8 @@
                    
                     </div>
                 </div>
-             <div class = "tlcontainer tlB">
-                  <div class = "content Alt B">
+             <div class = "tlcontainer tlA">
+                  <div class = "content Alt A">
                     <h4>Started bouldering</h4>
         
                     <h6>2019</h6>
@@ -101,8 +120,8 @@
                 </div> 
             
 
-            <div class = "tlcontainer tlA">
-                <div class = "content A">
+            <div class = "tlcontainer tlB">
+                <div class = "content B">
                 <h4>Applied Math Research Assistant</h4>
                 <h5>Seattle University </h5>
                 <h6>2018-2020</h6>
@@ -115,8 +134,8 @@
                 </div>    
             </div>
 
-            <div class = "tlcontainer tlB">
-                    <div class = "content B">
+            <div class = "tlcontainer tlA">
+                    <div class = "content A">
                     <h4>Team Lead</h4>
                     <h5>Seattle University Mathematics Corps</h5>
                     <h6>2018-2020</h6>
@@ -133,8 +152,8 @@
 
             
 
-            <div class = "tlcontainer tlA">
-                <div class = "content A">
+            <div class = "tlcontainer tlB">
+                <div class = "content B">
                 <h4>Materials Science Intern</h4>
                 <h5>Lawrence Livermore National Laboratory </h5>
                 <h6>2016-2017</h6>
@@ -150,8 +169,8 @@
                 </div>
             </div>
 
-            <div class = "tlcontainer tlB">
-                  <div class = "content Alt B">
+            <div class = "tlcontainer tlA">
+                  <div class = "content Alt A">
                     <h4>Began playing piano</h4>
         
                     <h6>2016</h6>
@@ -159,8 +178,8 @@
                   </div>
             </div>
 
-            <div class = "tlcontainer tlA">
-                  <div class = "content Alt A">
+            <div class = "tlcontainer tlB">
+                  <div class = "content Alt B">
                     <h4>Started learning Chinese</h4>
         
                     <h6>2012</h6>
