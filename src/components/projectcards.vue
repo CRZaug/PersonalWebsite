@@ -8,9 +8,11 @@
     </div>
   <div class = "cardContainer">
     <div class = "card" id = "card1">
-      <h3> This website! </h3>
+      <h3> This website!  </h3>
+      <div><font-awesome-icon icon = "hand-pointer"/> </div>
 
-      <div class = "cardhover" id = "hcard8">
+
+      <!-- <div class = "cardhover" id = "hcard8"> -->
         <div>
           <table>
             <tr>
@@ -166,7 +168,7 @@
          
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="2x" :style="{ color: '#4e323d' }"/> <a href="/measuring-speed-light.pdf" download>Download the report!</a> </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'download']" size="2x" :style="{ color: '#4e323d' }"/> <a href="/measuring-speed-light.pdf" download>Download the report!</a> </p>
         </div>
       </div> 
 
@@ -231,7 +233,7 @@
           
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'file']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "Arnoldi_Iteration_Report.pdf" download> Download the report! </a> </p>
+          <p class = "gh"> <font-awesome-icon :icon="['fa', 'download']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "Arnoldi_Iteration_Report.pdf" download> Download the report! </a> </p>
         </div>
       </div> 
 
@@ -416,7 +418,7 @@ a:hover{
 
 #card1, #card8 {
   background-position: center;
-  border-bottom: 4px solid c;
+  border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
   background-color: #693338;
 

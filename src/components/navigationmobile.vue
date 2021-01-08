@@ -27,7 +27,7 @@
       <a href="#about"><li>About</li></a>
       <a href="#projectcards"><li>Projects</li></a>
       <a href="#timeline"><li>Experience</li></a>
-      <a href="/Camille_Zaug_Resume_July_2020.pdf" download><li>Resume</li></a>
+      <a href="/Camille_Zaug_Resume_2021.pdf" download><li>Resume <font-awesome-icon icon = "download"/> </li></a>
     </ul>
   </div>
 </nav>

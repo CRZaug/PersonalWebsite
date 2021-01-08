@@ -11,7 +11,7 @@
 
                     <br>
                     <br>
-                        Want to know more about my experience? Check out my <a href="/Camille_Zaug_Resume_July_2020.pdf" download> resume!</a>
+                        Want to know more about my experience? Download out my <a href="/Camille_Zaug_Resume_July_2020.pdf" download> resume!</a>
                   </p>
                   
             </div>
@@ -81,7 +81,7 @@
                 <p class = "moreInfo">I graduated <i> summa cum laude</i> during the pandemic
                     <br>
                     <br>
-                    I earned dual degree in mathematics and physics and minored in Chinese and received the <a href = "https://www.seattleu.edu/newsroom/stories/student-awards.html" target = "_blank">President's Award</a> for my academic achievement 
+                    I earned dual degree in mathematics and physics and minored in Chinese and received the President's Award for my academic achievement 
          
                      </p>
                      
