@@ -42,7 +42,7 @@
           
              <h2> What I'm learning</h2>
              <br>
-             <h3> "Professional" things </h3> <!-- Change font -->
+             <h3> Professional interests </h3> <!-- Change font -->
              <br>
              <div class = "bulletSection">
             <div class ="bullet">

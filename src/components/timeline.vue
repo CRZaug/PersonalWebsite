@@ -11,7 +11,7 @@
 
                     <br>
                     <br>
-                        Want to know more about my experience? Download out my <a href="/Camille_Zaug_Resume_July_2020.pdf" download> resume!</a>
+                        Want to know more about my experience? Download my <a href="/Camille_Zaug_Resume_July_2020.pdf" download> resume!</a>
                   </p>
                   
             </div>
@@ -28,7 +28,8 @@
 
             <div class = "tlcontainer tlA">
                 <div class = "content A">
-                    <h4>Applied Mathematics Ph.D Student</h4>
+                  <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
+                    <h4>Applied Mathematics Ph.D. Student</h4>
                     <h5>University of Washington</h5>
                     <h6>2020-present</h6>
                     <p class = "moreInfo"> Growing my mathematical background, exploring new fields, and teaching calculus
@@ -36,9 +37,9 @@
                         <br>
                         Current coursework:
                         <ul>
-                          <li> Intro to Probability and Random Processes </li>
-                          <li> Applied Complex Analysis </li>
-                          <li> Applied Linear Algebra and Introductory Numerical Analysis <a href = "https://github.com/CRZaug/AMATH584" target = "_blank"> <font-awesome-icon :icon="['fab', 'github']" size="1x" /> </a></li>
+                          <li> AMATH 563: Advanced Stochastic Processes </li>
+                          <li> AMATH 568: Advanced Methods for Ordinary Differential Equations </li>
+                          <li> AMATH 585: Numerical Analysis of Boundary Value Problems <a href = "https://github.com/CRZaug/AMATH585" target = "_blank"> <font-awesome-icon :icon="['fab', 'github']" size="1x" /> </a></li>
                         </ul>
                     </p>
                 </div>
@@ -48,6 +49,8 @@
 
               <div class = "tlcontainer tlB">
                 <div class = "content B">
+                    <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
+
                     <h4>Software Engineering and Development Intern</h4>
                     <h5>Creative Creek</h5>
                     <h6>Summer-Fall 2020</h6>
@@ -61,6 +64,7 @@
 
             <div class = "tlcontainer tlA">
                     <div class = "content A">
+                      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
                     <h4>Computer Science Instructor</h4>
                     <h5>Girls Who Code </h5>
                 <h6>Summer 2020</h6>
@@ -76,12 +80,13 @@
 
             <div class = "tlcontainer tlB">
                 <div class = "content B">
+                  <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
                 <h4>Seattle University Graduate</h4>
                 <h6>2016-2020</h6>
                 <p class = "moreInfo">I graduated <i> summa cum laude</i> during the pandemic
                     <br>
                     <br>
-                    I earned dual degree in mathematics and physics and minored in Chinese and received the President's Award for my academic achievement 
+                    I earned dual degree in mathematics and physics (and minored in Chinese) and received the President's Award for my academic achievement 
          
                      </p>
                      
@@ -99,6 +104,7 @@
 
             <div class = "tlcontainer tlB">
                     <div class = "content B">
+                      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
                     <h4>First Publication</h4>
                 <h6>Spring 2020</h6>
                     <p class = "moreInfo">My team published work stemming from an advanced physics lab project
@@ -122,6 +128,7 @@
 
             <div class = "tlcontainer tlB">
                 <div class = "content B">
+                  <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
                 <h4>Applied Math Research Assistant</h4>
                 <h5>Seattle University </h5>
                 <h6>2018-2020</h6>
@@ -136,6 +143,7 @@
 
             <div class = "tlcontainer tlA">
                     <div class = "content A">
+                      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
                     <h4>Team Lead</h4>
                     <h5>Seattle University Mathematics Corps</h5>
                     <h6>2018-2020</h6>
@@ -155,6 +163,7 @@
             <div class = "tlcontainer tlB">
                 <div class = "content B">
                 <h4>Materials Science Intern</h4>
+                <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#693338' }"/></div>
                 <h5>Lawrence Livermore National Laboratory </h5>
                 <h6>2016-2017</h6>
                 <p class = "moreInfo">Writing MATLAB scripts to process images of nanoparticles was my first experience coding
@@ -248,7 +257,6 @@ a:hover{
 
 .timeline{
     position: relative;
- 
 }
 
 /* Timeline */
@@ -350,7 +358,6 @@ transition: all ease-in 0.5s;
 
 
 
-
 /* The share arrow */
 
 .overturn{
@@ -437,7 +444,9 @@ right: 0;
   display: none;
 }
 
-
+.clickHere{
+  display: none;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 800px) {
@@ -446,12 +455,27 @@ right: 0;
   display: none;
 }
 
+.clickHere{
+  display: block;
+  position: absolute;
+  right: 7%;
+  bottom: 5%;
+}
+
 .A:hover > .moreInfo{
   display: block;
 }
 
+.A:hover > .clickHere{
+  display: none;
+}
+
 .B:hover > .moreInfo{
   display: block;
+}
+
+.B:hover > .clickHere{
+  display: none;
 }
 
 .tlB{
@@ -467,6 +491,10 @@ h4, h5,{
   margin-left: 15%;
 
 }
+
+
+
+
 /* Change the grid */
 .container{
   justify-self: center;
@@ -533,6 +561,8 @@ h4, h5,{
 }
 
 @media screen and (max-width: 650px) {
+
+
 
 #hCircle{
   display: block;

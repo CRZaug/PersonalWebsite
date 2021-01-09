@@ -9,10 +9,10 @@
   <div class = "cardContainer">
     <div class = "card" id = "card1">
       <h3> This website!  </h3>
-      <div><font-awesome-icon icon = "hand-pointer"/> </div>
 
+      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
-      <!-- <div class = "cardhover" id = "hcard8"> -->
+      <div class = "cardhover" id = "hcard8">
         <div>
           <table>
             <tr>
@@ -43,6 +43,7 @@
 
     <div class = "card" id = "card2">
        <h3> ML in Kaggle </h3>
+       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
       <div class = "cardhover" id = "hcard8">
         <div>
@@ -77,6 +78,7 @@
 
     <div class = "card" id = "card3">
        <h3> Modeling Nonlinear Waves </h3>
+       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
        <div class = "cardhover" id = "hcard8">
         <div>
@@ -109,6 +111,7 @@
 
     <div class = "card" id = "card4">
        <h3> Personality Quiz </h3>
+       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
       <div class = "cardhover" id = "hcard8">
         <div>
@@ -144,6 +147,7 @@
 
     <div class = "card" id = "card5">
       <h3> Measuring Lightspeed </h3>
+      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
         <div class = "cardhover" id = "hcard8">
         <div>
@@ -176,6 +180,7 @@
 
     <div class = "card" id = "card6">
        <h3> Python Timbre Synthesizer </h3>
+       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
         <div class = "cardhover" id = "hcard8">
         <div>
@@ -209,6 +214,7 @@
 
     <div class = "card" id = "card7">
        <h3> Applying Arnoldi Iteration </h3>
+       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
         <div class = "cardhover" id = "hcard7">
         <div>
@@ -241,6 +247,7 @@
 
     <div class = "card" id = "card8">
        <h3> <i>Cracking the Coding Interview</i> Problems </h3>
+       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
        
       <div class = "cardhover" id = "hcard8">
         <div>
@@ -403,6 +410,10 @@ td{
 
 }
 
+.clickHere{
+  display: none;
+}
+
 .gh {
   text-align: center;
 }
@@ -526,6 +537,15 @@ a:hover{
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.clickHere{
+
+  display: block;
+  position: absolute;
+  margin-left:85%;
+  margin-top: 85%;
+
 }
 
 #card5{
