@@ -8,7 +8,7 @@
     </div>
   <div class = "cardContainer">
     <div class = "card" id = "card1">
-      <h3> This website!  </h3>
+      <h3> This website! </h3>
 
       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
 
@@ -543,8 +543,8 @@ a:hover{
 
   display: block;
   position: absolute;
-  margin-left:85%;
-  margin-top: 85%;
+  right: 5%;
+  bottom: 5%;
 
 }
 
