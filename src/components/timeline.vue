@@ -1,5 +1,5 @@
 // Later, add some cute little things I've done as well! Quarantine cooking, picking up piano, etc
-
+// Things to add: surfing, TA, Masters in Amath
 <template>
 <body onclick>
     <div class = "c">
@@ -37,9 +37,9 @@
                         <br>
                         Current coursework:
                         <ul>
-                          <li> AMATH 563: Advanced Stochastic Processes </li>
-                          <li> AMATH 568: Advanced Methods for Ordinary Differential Equations </li>
-                          <li> AMATH 585: Numerical Analysis of Boundary Value Problems <a href = "https://github.com/CRZaug/AMATH585" target = "_blank"> <font-awesome-icon :icon="['fab', 'github']" size="1x" /> </a></li>
+                          <li> AMATH 563: Intro to Deep Learning: Applications and Theory <a href = "https://github.com/CRZaug/AMATH563" target = "_blank"> <font-awesome-icon :icon="['fab', 'github']" size="1x" /> </a></li>
+                          <li> AMATH 568: Advanced Methods for Partial Differential Equations </li>
+                          <li> AMATH 583: High Performance Scientific Computing </li>
                         </ul>
                     </p>
                 </div>

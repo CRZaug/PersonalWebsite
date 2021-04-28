@@ -26,9 +26,8 @@
             <br>
             <div class = "aboutA">
                 <div class = "icon"><font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/></div>
-                <p> <b>Software engineering intern</b> with Creative Creek summer 2020
-                    <br>
-                    <b>Instructor</b> with Girls Who Code summer 2020</p>
+                <p> 
+                    <b>CS Instructor</b> with Girls Who Code summer 2021</p>
             </div>
                 
             
