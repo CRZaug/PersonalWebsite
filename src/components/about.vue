@@ -11,23 +11,23 @@
             
             <div class = "aboutA">
                 <div class = "icon"><font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/></div>
-                <p> <b>Applied mathematics Ph.D student</b> 
+                <p> <b>Applied Mathematics Ph.D. student</b> 
                 <br>
                  University of Washington</p>
             </div>
             <br>
             <div class = "aboutB">
                 <div class = "icon"><font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/></div>
-                <p> <b>2020 Seattle University graduate</b>, <i>summa cum laude</i>
+                <p> <b>M.S. Applied Mathematics</b>, <i>University of Washington 2021</i>
                     <br>
-                    B.S. Mathematics, B.A. Physics, Chinese minor
+                    <b> B.S. Math, B.A. Physics, Chinese minor</b>, <i>Seattle University 2020</i>
                      </p>
             </div>
             <br>
             <div class = "aboutA">
                 <div class = "icon"><font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> 
-                    <b>CS Instructor</b> with Girls Who Code summer 2021</p>
+                    <b>Computer Science Instructor</b>, Girls Who Code <br>Summer 2021</p>
             </div>
                 
             
@@ -60,7 +60,7 @@
             
             <div class ="bullet">
                 <font-awesome-icon icon = "chalkboard-teacher" size = "2x" :style="{ color: '#4e323d' }"/> 
-                <h6>Anti-racist education</h6>
+                <h6>Equitable education</h6>
             </div>
             </div>
             <br>
@@ -82,7 +82,7 @@
             </div>
             <div class ="bullet">
                 <font-awesome-icon   icon = "baseball-ball" size = "2x" :style="{ color: '#4e323d' }"/> 
-                 <h6> Tennis</h6> 
+                 <h6> Surfing</h6> 
             </div>
             
             <div class ="bullet">
