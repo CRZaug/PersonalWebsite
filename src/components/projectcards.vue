@@ -1,18 +1,17 @@
 <template>
 <body onclick>
-
-    <div class = "cIntro">
-
+  <div class="cIntro">
     <h2>Highlighted Projects</h2>
+  </div>
+  <div class="cardContainer">
+    <div class="card" id="card1">
+      <h3>This website!</h3>
 
-    </div>
-  <div class = "cardContainer">
-    <div class = "card" id = "card1">
-      <h3> This website! </h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
-
-      <div class = "cardhover" id = "hcard8">
+      <div class="cardhover" id="hcard8">
         <div>
           <table>
             <tr>
@@ -34,23 +33,29 @@
           </table>
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/PersonalWebsite" target = "_blank">Check it out on Github!</a> </p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }" />
+            <a
+              href="https://github.com/CRZaug/PersonalWebsite"
+              target="_blank"
+            >Check it out on Github!</a>
+          </p>
         </div>
       </div>
-
-
     </div>
 
-    <div class = "card" id = "card2">
-       <h3> ML in Kaggle </h3>
-       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
+    <div class="card" id="card2">
+      <h3>Statistical Modeling in Kaggle</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-      <div class = "cardhover" id = "hcard8">
+      <div class="cardhover" id="hcard8">
         <div>
           <table>
             <tr>
               <th>WHAT</th>
-              <td>Applied advanced logistic regression to predict housing prices from large data</td>
+              <td>Applied advanced regression techniques to predict housing prices from large data</td>
             </tr>
             <tr>
               <th>WHY</th>
@@ -65,22 +70,65 @@
               <td>Spring 2020</td>
             </tr>
           </table>
-
-
-
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/Math3910KaggleRegression" target="_blank"> Check it out on Github! </a></p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }" />
+            <a
+              href="https://github.com/CRZaug/Math3910KaggleRegression"
+              target="_blank"
+            >Check it out on Github!</a>
+          </p>
         </div>
       </div>
-
     </div>
 
-    <div class = "card" id = "card3">
-       <h3> Modeling Nonlinear Waves </h3>
-       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
+    <div class="card" id="card3">
+      <h3>Deep Learning Swell Prediction</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-       <div class = "cardhover" id = "hcard8">
+      <div class="cardhover" id="hcard8">
+        <div>
+          <table>
+            <tr>
+              <th>WHAT</th>
+              <td>Used sequence-to-sequence models to predict swell in Santa Cruz, CA</td>
+            </tr>
+            <tr>
+              <th>WHY</th>
+              <td>Build upon previous swell-prediction work and grow ML skills</td>
+            </tr>
+            <tr>
+              <th>HOW</th>
+              <td>Pytorch, Google Colab</td>
+            </tr>
+            <tr>
+              <th>WHEN</th>
+              <td>Spring 2021</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p class="gh">
+            <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }" />
+            <a
+              href="https://github.com/CRZaug/AMATH563/blob/master/Project/AMATH563_Project.ipynb"
+              target="_blank"
+            >Check it out on Github!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="card4">
+      <h3>Modeling Nonlinear Waves</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
+
+      <div class="cardhover" id="hcard8">
         <div>
           <table>
             <tr>
@@ -100,29 +148,30 @@
               <td>2018-2020</td>
             </tr>
           </table>
-
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'smile']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://arxiv.org/abs/2005.06635" target = "_blank">Check it out on Arxiv! </a></p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fa', 'smile']" size="2x" :style="{ color: '#4e323d' }" />
+            <a href="https://arxiv.org/abs/2005.06635" target="_blank">Check it out on Arxiv!</a>
+          </p>
         </div>
       </div>
-
     </div>
 
-    <div class = "card" id = "card4">
-       <h3> Personality Quiz </h3>
-       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
+    <div class="card" id="card5">
+      <h3>Personality Quiz</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-      <div class = "cardhover" id = "hcard8">
+      <div class="cardhover" id="hcard8">
         <div>
-
-
           <table>
             <tr>
               <th>WHAT</th>
-              <td>A short, online coronavirus-themed Buzzfeed-style personality quiz </td>
+              <td>A short, online coronavirus-themed Buzzfeed-style personality quiz</td>
             </tr>
-            <tr>
+            <tr></tr>
             <tr>
               <th>WHY</th>
               <td>Inspired by a Girls Who Code student</td>
@@ -136,20 +185,23 @@
               <td>Summer 2020</td>
             </tr>
           </table>
-
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'fish']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://glitch.com/~who-are-you-quiz" target = "_blank">Check it out on Glitch! </a> </p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fa', 'fish']" size="2x" :style="{ color: '#4e323d' }" />
+            <a href="https://glitch.com/~who-are-you-quiz" target="_blank">Check it out on Glitch!</a>
+          </p>
         </div>
-      </div> 
-
+      </div>
     </div>
 
-    <div class = "card" id = "card5">
-      <h3> Measuring Lightspeed </h3>
-      <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
+    <div class="card" id="card6">
+      <h3>Measuring Lightspeed</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-        <div class = "cardhover" id = "hcard8">
+      <div class="cardhover" id="hcard8">
         <div>
           <table>
             <tr>
@@ -169,20 +221,23 @@
               <td>Winter 2018</td>
             </tr>
           </table>
-         
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'download']" size="2x" :style="{ color: '#4e323d' }"/> <a href="/measuring-speed-light.pdf" download>Download the report!</a> </p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fa', 'download']" size="2x" :style="{ color: '#4e323d' }" />
+            <a href="/measuring-speed-light.pdf" download>Download the report!</a>
+          </p>
         </div>
-      </div> 
-
+      </div>
     </div>
 
-    <div class = "card" id = "card6">
-       <h3> Python Timbre Synthesizer </h3>
-       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
+    <div class="card" id="card7">
+      <h3>Python Timbre Synthesizer</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-        <div class = "cardhover" id = "hcard8">
+      <div class="cardhover" id="hcard8">
         <div>
           <table>
             <tr>
@@ -202,21 +257,26 @@
               <td>Spring 2020</td>
             </tr>
           </table>
-        
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "https://github.com/CRZaug/SynthesizerProject" target = "_blank">Check it out on Github! </a></p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fab', 'github']" size="2x" :style="{ color: '#4e323d' }" />
+            <a
+              href="https://github.com/CRZaug/SynthesizerProject"
+              target="_blank"
+            >Check it out on Github!</a>
+          </p>
         </div>
-      </div> 
-
+      </div>
     </div>
 
+    <div class="card" id="card8">
+      <h3>Applying Arnoldi Iteration</h3>
+      <div class="clickHere">
+        <font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }" />
+      </div>
 
-    <div class = "card" id = "card7">
-       <h3> Applying Arnoldi Iteration </h3>
-       <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
-
-        <div class = "cardhover" id = "hcard7">
+      <div class="cardhover" id="hcard7">
         <div>
           <table>
             <tr>
@@ -225,7 +285,7 @@
             </tr>
             <tr>
               <th>WHY</th>
-              <td>Practice numerical linear algebra on large matrices </td>
+              <td>Practice numerical linear algebra on large matrices</td>
             </tr>
             <tr>
               <th>HOW</th>
@@ -236,16 +296,17 @@
               <td>Winter 2019</td>
             </tr>
           </table>
-          
         </div>
         <div>
-          <p class = "gh"> <font-awesome-icon :icon="['fa', 'download']" size="2x" :style="{ color: '#4e323d' }"/> <a href = "Arnoldi_Iteration_Report.pdf" download> Download the report! </a> </p>
+          <p class="gh">
+            <font-awesome-icon :icon="['fa', 'download']" size="2x" :style="{ color: '#4e323d' }" />
+            <a href="Arnoldi_Iteration_Report.pdf" download>Download the report!</a>
+          </p>
         </div>
-      </div> 
-
+      </div>
     </div>
 
-    <div class = "card" id = "card8">
+    <!-- <div class = "card" id = "card8">
        <h3> <i>Cracking the Coding Interview</i> Problems </h3>
        <div class = "clickHere"><font-awesome-icon :icon="['fa', 'hand-pointer']" size="2x" :style="{ color: '#f2eee6' }"/></div>
        
@@ -279,32 +340,25 @@
 
 
 
-    </div>
-
-    
+    </div>-->
 
     <!-- Other ideas: Synthesizer project, Numerical Methods Project, Asymp. Project, Toy CS problems, Physics reports -->
     <!-- Include a "See all" button? -->
   </div>
 
-  <div class ="circleContainer">
-    <div class = "circle"></div>
-    <div class = "circle"></div>
-    <div class = "circle"></div>
+  <div class="circleContainer">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
   </div>
 
   <!-- <div class = "end">
     <h4> More to come!</h4>
-  </div> -->
-
-  
-
-
+  </div>-->
 </body>
 </template>
 
 <style scoped>
-
 body {
   padding-left: 3em;
   padding-right: 3em;
@@ -313,24 +367,23 @@ body {
 }
 
 body:before {
-    content:'';
-    display:block;
-    position: relative;
-    width:0;
-    height:10em;
-    margin-top:-5em;
-
+  content: "";
+  display: block;
+  position: relative;
+  width: 0;
+  height: 10em;
+  margin-top: -5em;
 }
 
 th {
   vertical-align: top;
 }
-td{
+td {
   padding-left: 0.25em;
 }
 
-.cIntro{
-  background-color:  #693338;
+.cIntro {
+  background-color: #693338;
   color: #f2eee6;
   padding: 1%;
   border-radius: 5px;
@@ -346,14 +399,12 @@ td{
   text-align: center;
 }
 
-.cardContainer{
-
+.cardContainer {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 50% 50%;
 
   grid-gap: 10px;
-
 }
 
 .card {
@@ -364,31 +415,28 @@ td{
   min-height: 250px;
   border-radius: 5px;
   box-shadow: 3px 3px 8px #4e323d;
-  
+
   text-align: center;
 
   display: flex;
   justify-content: center;
   align-content: center;
 
-
-  top:0;
+  top: 0;
   transition: all ease-in 0.5s;
-
 }
 
-.card:hover{
+.card:hover {
   top: -2.5%;
-
 }
 
-.cardhover{
+.cardhover {
   padding-top: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: #f2eee6;
@@ -401,16 +449,13 @@ td{
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto 15%;
-
-  
 }
 
-.cardhover:hover{
+.cardhover:hover {
   opacity: 1;
-
 }
 
-.clickHere{
+.clickHere {
   display: none;
 }
 
@@ -418,45 +463,47 @@ td{
   text-align: center;
 }
 
-a{
+a {
   text-align: center;
-  color:#d8746a;
+  color: #d8746a;
 }
 
-a:hover{
+a:hover {
   color: #d54325;
 }
 
-#card1, #card8 {
+#card1,
+#card8 {
   background-position: center;
   border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
   background-color: #693338;
 
-  color: #f2eee6;  
+  color: #f2eee6;
 }
 
+#card2,
+#card7 {
+  background-color: #e9c0b0;
 
-#card2,#card7 {
-    background-color: #e9c0b0;
-
-    border-bottom: 4px solid #d54325;
+  border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
 }
-#card3, #card6 {
-    background-color: #4e323d;
+#card3,
+#card6 {
+  background-color: #4e323d;
 
-    border-bottom: 4px solid #d54325;
+  border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
-    color: #f2eee6;
+  color: #f2eee6;
 }
-#card4, #card5 {
-    background-color: #d8746a;
+#card4,
+#card5 {
+  background-color: #d8746a;
 
-    border-bottom: 4px solid #d54325;
+  border-bottom: 4px solid #d54325;
   border-right: 4px solid #d54325;
 }
-
 
 /* 
 .end {
@@ -481,16 +528,16 @@ a:hover{
 
 } */
 
-.circleContainer{
+.circleContainer {
   margin-top: 3em;
   display: flex;
   justify-content: center;
 }
 
-.circle{
+.circle {
   margin-top: 2em;
-  margin-left:1em;
-  margin-right:1em;
+  margin-left: 1em;
+  margin-right: 1em;
   width: 10px;
   height: 10px;
   left: 2px;
@@ -500,78 +547,64 @@ a:hover{
   border-radius: 50%;
 }
 
-
 /* Media breakpoints */
 @media only screen and (max-width: 1300px) {
-  
-.cardContainer{
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
 
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
 
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
-  grid-gap: 20px;
-  justify-content: center;
-  
-  margin-left: 0%;
-  margin-right: 0%;
-
-}
-
-.card {
-  justify-self: center;
-}
+  .card {
+    justify-self: center;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-  
-.cardContainer{
-  display: block;
-  height: 100%;
-  justify-content: center;
+  .cardContainer {
+    display: block;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .card {
+    max-width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .clickHere {
+    display: block;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+  }
+
+  #card5 {
+    background-color: #693338;
+    color: #f2eee6;
+  }
+
+  #card6 {
+    background-color: #e9c0b0;
+    color: #4e323d;
+  }
+
+  #card7 {
+    background-color: #4e323d;
+    color: #f2eee6;
+  }
+
+  #card8 {
+    background-color: #d8746a;
+    color: #4e323d;
+  }
 }
-
-.card {
-  max-width: 100%;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.clickHere{
-
-  display: block;
-  position: absolute;
-  right: 5%;
-  bottom: 5%;
-
-}
-
-#card5{
-  background-color: #693338;
-  color: #f2eee6;
-}
-
-#card6{
-  background-color: #e9c0b0;
-  color: #4e323d;
-}
-
-#card7{
-  background-color: #4e323d;
-  color: #f2eee6;
-}
-
-#card8{
-  background-color:  #d8746a;
-  color: #4e323d;
-}
-
-
-
-}
-
-
-
 </style>

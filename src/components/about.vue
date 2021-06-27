@@ -71,19 +71,22 @@
             <br>
             
             <div class = "bulletSection">
+
+            <div class ="bullet">
+            <font-awesome-icon   icon = "water" size = "2x" :style="{ color: '#4e323d' }"/> 
+                <h6> Surfing</h6> 
+            </div>
+            
             <div class ="bullet">
                 <font-awesome-icon  icon = "mountain"  size = "2x" :style="{ color: '#4e323d' }"/> 
-                <h6> Bouldering</h6> 
+                <h6> Hiking</h6> 
                 
             </div>
             <div class ="bullet">
                  <font-awesome-icon icon = "music" size = "2x" :style="{ color: '#4e323d' }"/>
                  <h6> Piano and guitar </h6> 
             </div>
-            <div class ="bullet">
-                <font-awesome-icon   icon = "baseball-ball" size = "2x" :style="{ color: '#4e323d' }"/> 
-                 <h6> Surfing</h6> 
-            </div>
+            
             
             <div class ="bullet">
                  <font-awesome-icon icon = "utensils" size = "2x" :style="{ color: '#4e323d' }"/>
