@@ -86,7 +86,7 @@
 
         <div class="tlcontainer tlB">
           <div class="content Alt B">
-            <h4>Learned to surfing</h4>
+            <h4>Started surfing</h4>
 
             <h6>2021</h6>
           </div>
