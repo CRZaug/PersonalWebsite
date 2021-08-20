@@ -31,7 +31,7 @@
             <div class = "aboutA">
                 <div class = "icon"><font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> 
-                    <b>Computer Science Instructor</b>, Girls Who Code <br>Summer 2021</p>
+                    <b>Computer Science Instructor</b> <br>Girls Who Code Summer 2020, 2021</p>
             </div>
                 
             
