@@ -13,7 +13,7 @@
         <br>
         <div class = "text"> 
             <h1>I'm Camille.</h1>
-            <h4>Welcome to my interactive resume!</h4>
+            <h4>I'm working to build technology that benefits humanity.</h4>
         </div>
     
         

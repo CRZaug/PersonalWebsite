@@ -20,11 +20,11 @@
                 <div class = "icon"><font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> <b>M.S. Applied Mathematics</b>
                 <br> 
-                <i>University of Washington 2021</i>
+                University of Washington 2021
                     <br>
                     <b> B.S. Math, B.A. Physics, Chinese minor</b>
                     <br>
-                    <i>Seattle University 2020</i>
+                    Seattle University 2020
                      </p>
             </div>
             <br>
