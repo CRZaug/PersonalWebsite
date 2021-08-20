@@ -29,7 +29,7 @@
       <a href="#timeline"><li>Experience</li></a>
       <a href="#awards"><li>Awards</li></a>
       <a href="#contact"><li>Contact</li></a>
-      <a href="/Camille_Zaug_Resume_2021.pdf" download><li>Resume <font-awesome-icon icon = "download"/> </li></a>
+      <a href="/Camille_Zaug_Resume_2021.pdf" target = "_blank"><li>Resume  </li></a>
     </ul>
   </div>
 </nav>

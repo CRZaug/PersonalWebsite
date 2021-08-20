@@ -9,10 +9,10 @@
         <p id="par">
           I am interested in data science, AI, and software engineering.
           <br />
-          <br />Want to know more about my experience? Download my
+          <br />Want to know more about my experience? Check out my
           <a
             href="/Camille_Zaug_Resume_2021.pdf"
-            download
+            target = "_blank"
           >resume!</a>
         </p>
       </div>
@@ -24,6 +24,10 @@
 
     <div class="timeline">
       <div class="container">
+        
+
+        
+
         <div class="tlcontainer tlA">
           <div class="content A">
             <div class="clickHere">
@@ -33,13 +37,15 @@
                 :style="{ color: '#693338' }"
               />
             </div>
-            <h4>Applied Mathematics Ph.D. Student</h4>
-            <h5>University of Washington</h5>
-            <h6>2020-present</h6>
+            <h4>Computer Science Instructor</h4>
+            <h5>Girls Who Code</h5>
+            <h6>Summer 2020, 2021</h6>
             <p class="moreInfo">
-              Growing my mathematical background, exploring new fields, and teaching calculus
+              Combining my passions of equitable equcation, coding, and STEM
+              <br />
+              <br />
+              Teaching over 360 young women HTML, CSS, and Javascript while building lasting community
             </p>
-
           </div>
         </div>
 
@@ -63,37 +69,15 @@
         </div>
 
         <div class="tlcontainer tlA">
-          <div class="content A">
-            <div class="clickHere">
-              <font-awesome-icon
-                :icon="['fa', 'hand-pointer']"
-                size="2x"
-                :style="{ color: '#693338' }"
-              />
-            </div>
-            <h4>Computer Science Instructor</h4>
-            <h5>Girls Who Code</h5>
-            <h6>Summer 2020, 2021</h6>
-            <p class="moreInfo">
-              Combining my passions of equitable equcation, coding, and STEM
-              <br />
-              <br />
-              Teaching over 360 young women HTML, CSS, and Javascript while building lasting community
-            </p>
-          </div>
-        </div>
-
-
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
+          <div class="content Alt A">
             <h4>Started surfing</h4>
 
             <h6>2021</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -115,8 +99,8 @@
 
         
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -135,16 +119,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Picked up guitar</h4>
 
             <h6>2020</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -167,16 +151,16 @@
             </p>
           </div>
         </div>
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Started bouldering</h4>
 
             <h6>2019</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -195,8 +179,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -219,8 +203,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <h4>Materials Science Intern</h4>
             <div class="clickHere">
               <font-awesome-icon
@@ -239,16 +223,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Began playing piano</h4>
 
             <h6>2016</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
+        <div class="tlcontainer tlA">
+          <div class="content Alt A">
             <h4>Started learning Chinese</h4>
 
             <h6>2012</h6>

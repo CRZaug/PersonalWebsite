@@ -10,7 +10,7 @@
                 <!-- <p> I'm proud to have been recognized for my work in academics and research. Here are some key achievements: </p> -->
                 <ul>
                     <li >  <h5>  <font-awesome-icon  icon = "award"  size = "1x" :style="{ color: '#4e323d' }"/> President's Award (2020)</h5>  </li>
-                    <ul class = "sub"> <li> <i>The highest academic award at Seattle University given to a graduating senior</i></li> </ul>
+                    <ul class = "sub"> <li> <i>Elected by department chairs and university president to receive the highest academic award at Seattle University given to a graduating senior</i></li> </ul>
                     <li id> <h5>  <font-awesome-icon  icon = "thumbtack"  size = "1x" :style="{ color: '#4e323d' }"/>  SIAM Best Poster Award (2019) </h5> </li>
                     <ul class = "sub"> <li> <i> Award presented for the poster "Frequency Downshift in the Ocean" at the October PNW sectional meeting </i></li> </ul>
                     <li > <h5>  <font-awesome-icon  icon = "apple-alt"  size = "1x" :style="{ color: '#4e323d' }"/>  Seattle University Impactaton Winner (2018) </h5> </li>
