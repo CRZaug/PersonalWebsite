@@ -7,7 +7,7 @@
       <div class="opportunity-content">
         <h3>Looking for opportunities in tech!</h3>
         <p id="par">
-          I am interested in data science, AI, and software engineering.
+          I am interested in data science and software engineering to build innovative, human-focused, and sustainable technologies.
           <br />
           <br />Want to know more about my experience? Check out my
           <a

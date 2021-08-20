@@ -5,7 +5,7 @@
                 <h2> Say hello! </h2>
 
                 <p> Connect with me on LinkedIn </p>
-                <p> (Or download my resume for my contact information.)</p>
+                <p> (Or view my resume for my email address.)</p>
                 <div class = "linkedin">
                     <a class = "linkedin2" href = "https://www.linkedin.com/in/crzaug/">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="3x" :style="{ color: '#f2eee6' }"/>
