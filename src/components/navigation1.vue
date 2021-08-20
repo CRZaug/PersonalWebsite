@@ -11,7 +11,7 @@
             <a href = "#timeline">Experience</a>
             <a href = "#awards">Awards</a>
             <a href = "#contact">Contact</a>
-            <a href="/Camille_Zaug_Resume_2021.pdf" download> Resume <font-awesome-icon icon = "download"/> </a>
+            <a href="/Camille_Zaug_Resume_2021.pdf" target = "_blank" > Resume <font-awesome-icon icon = "download"/> </a>
             </div>
 
     </nav>

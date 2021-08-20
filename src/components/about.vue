@@ -11,16 +11,20 @@
             
             <div class = "aboutA">
                 <div class = "icon"><font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/></div>
-                <p> <b>Applied Mathematics Ph.D. student</b> 
+                <p> <b>Data Scientist and Software Engineer</b> 
                 <br>
-                 University of Washington</p>
+                 Actively looking for new opportunites in technology</p>
             </div>
             <br>
             <div class = "aboutB">
                 <div class = "icon"><font-awesome-icon icon = "graduation-cap" size = "2x" :style="{ color: '#4e323d' }"/></div>
-                <p> <b>M.S. Applied Mathematics</b>, <i>University of Washington 2021</i>
+                <p> <b>M.S. Applied Mathematics</b>
+                <br> 
+                <i>University of Washington 2021</i>
                     <br>
-                    <b> B.S. Math, B.A. Physics, Chinese minor</b>, <i>Seattle University 2020</i>
+                    <b> B.S. Math, B.A. Physics, Chinese minor</b>
+                    <br>
+                    <i>Seattle University 2020</i>
                      </p>
             </div>
             <br>

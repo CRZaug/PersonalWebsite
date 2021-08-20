@@ -45,7 +45,7 @@ import {faSmile, faHandPointer} from '@fortawesome/free-solid-svg-icons';
 library.add(faSmile,faHandPointer);
 
 // Awards
-import {faAward,faThumbtack, faAppleAlt}from '@fortawesome/free-solid-svg-icons'
+import {faAward,faThumbtack, faAppleAlt} from '@fortawesome/free-solid-svg-icons';
 library.add(faAward,faThumbtack, faAppleAlt);
 
 // Contact

@@ -16,7 +16,6 @@
       <projectcards />
     </section>
 
-  
     <section id="timeline">
       <timeline />
     </section>
