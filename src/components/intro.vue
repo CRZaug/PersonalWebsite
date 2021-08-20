@@ -13,7 +13,7 @@
         <br>
         <div class = "text"> 
             <h1>I'm Camille.</h1>
-            <h4>I'm working to build technology that benefits humanity.</h4>
+            <h4>Working to build technology that benefits humanity</h4>
         </div>
     
         
