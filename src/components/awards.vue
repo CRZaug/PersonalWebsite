@@ -32,6 +32,7 @@ body {
     color: #4e323d;
     /* margin-top: 1em;
     margin-bottom: 1em; */
+    margin-bottom: 3em;
 }
 
 #container{
