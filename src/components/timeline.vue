@@ -5,7 +5,7 @@
   <div class="c">
     <div id="opportunity">
       <div class="opportunity-content">
-        <h3>Looking for opportunities in tech!</h3>
+        <h3>Milestones</h3>
         <p id="par">
           I am interested in data science and software engineering to build innovative, human-focused, and sustainable technologies.
           <br />
@@ -25,11 +25,30 @@
     <div class="timeline">
       <div class="container">
         
-
-        
-
         <div class="tlcontainer tlA">
           <div class="content A">
+            <div class="clickHere">
+              <font-awesome-icon
+                :icon="['fa', 'hand-pointer']"
+                size="2x"
+                :style="{ color: '#693338' }"
+              />
+            </div>
+            <h4>DevOps Data Scientist</h4>
+            <h5>Ford Motor Company</h5>
+            <h6>2021-present</h6>
+            <p class="moreInfo">
+              Using math, data, and programming to advance vehicle quality as part of Operations Analytics
+              <br />
+              <br />
+              Excited to start my post-university career!
+            </p>
+          </div>
+        </div>
+        
+
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -49,8 +68,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -68,16 +87,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Started surfing</h4>
 
             <h6>2021</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -99,8 +118,8 @@
 
         
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -119,16 +138,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
+        <div class="tlcontainer tlA">
+          <div class="content Alt A">
             <h4>Picked up guitar</h4>
 
             <h6>2020</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -151,16 +170,16 @@
             </p>
           </div>
         </div>
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
+        <div class="tlcontainer tlA">
+          <div class="content Alt A">
             <h4>Started bouldering</h4>
 
             <h6>2019</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -179,8 +198,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -203,8 +222,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <h4>Materials Science Intern</h4>
             <div class="clickHere">
               <font-awesome-icon
@@ -223,16 +242,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
+        <div class="tlcontainer tlA">
+          <div class="content Alt A">
             <h4>Began playing piano</h4>
 
             <h6>2016</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Started learning Chinese</h4>
 
             <h6>2012</h6>

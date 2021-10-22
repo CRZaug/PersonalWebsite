@@ -10,10 +10,10 @@
 
             
             <div class = "aboutA">
-                <div class = "icon"><font-awesome-icon icon = "calculator"  size = "2x" :style="{ color: '#4e323d' }"/></div>
-                <p> <b>Data Scientist and Software Engineer</b> 
+                <div class = "icon"><font-awesome-icon icon = "robot"  size = "2x" :style="{ color: '#4e323d' }"/></div>
+                <p> <b>DevOps Data Scientist </b> 
                 <br>
-                 Actively looking for new opportunites in technology</p>
+                 Ford Motor Company</p>
             </div>
             <br>
             <div class = "aboutB">
@@ -29,9 +29,9 @@
             </div>
             <br>
             <div class = "aboutA">
-                <div class = "icon"><font-awesome-icon icon = "laptop-house"  size = "2x" :style="{ color: '#4e323d' }"/></div>
+                <div class = "icon"><font-awesome-icon icon = "seedling"  size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> 
-                    <b>Computer Science Instructor</b> <br>Girls Who Code Summer 2020, 2021</p>
+                    <b>Dabbling Hobbyist</b> <br>Constantly trying new activities for joy</p>
             </div>
                 
             
