@@ -28,7 +28,7 @@
             <div class = "links">
                     <div class ="linkIcons">
                         
-                            <a href="/Camille_Zaug_Resume_2021.pdf" target = "_blank">
+                            <a href="/Camille_Zaug_Resume.pdf" target = "_blank">
                                 <font-awesome-icon icon = "file" size = "3x" :style="{ color: '#f2eee6' }" />
                             </a>
                             <p>Resume </p>

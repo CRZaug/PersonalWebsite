@@ -27,9 +27,9 @@ library.add(faAddressCard,faFile, faFish, faBook);
 
 
 // About
-import { faSeedling, faMouse, faGraduationCap,faRobot,faInfinity,faLanguage, faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
+import { faSeedling, faMouse, faGraduationCap,faRobot,faInfinity,faLanguage, faCode } from '@fortawesome/free-solid-svg-icons';
 import { faMusic, faBaseballBall, faUtensils, faMountain, faWater} from '@fortawesome/free-solid-svg-icons';
-library.add(faSeedling, faMouse, faGraduationCap,faRobot,faInfinity,faLanguage,faChalkboardTeacher);
+library.add(faSeedling, faMouse, faGraduationCap,faRobot,faInfinity,faLanguage,faCode);
 library.add(faMusic, faBaseballBall, faUtensils, faMountain, faWater);
 
 // Brands
