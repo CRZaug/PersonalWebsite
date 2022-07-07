@@ -24,7 +24,10 @@
 
     <div class="timeline">
       <div class="container">
-        
+
+
+    
+
         <div class="tlcontainer tlA">
           <div class="content A">
             <div class="clickHere">
@@ -38,17 +41,25 @@
             <h5>Ford Motor Company</h5>
             <h6>2021-present</h6>
             <p class="moreInfo">
-              Using math, data, and programming to advance vehicle quality as part of Operations Analytics
+              Using math, data, and programming to improve vehicle quality by developing high-impact Quality Analytics data science products
               <br />
               <br />
-              Excited to start my post-university career!
+              My favorite part of my job is that I learn a new technology almost every month! I'm currently keeping busy learning about machine learning operations on Google Cloud Platform
             </p>
+          </div>
+        </div>
+
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
+            <h4>Started longboarding (on land)</h4>
+
+            <h6>2022</h6>
           </div>
         </div>
         
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -68,8 +79,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -87,16 +98,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
-            <h4>Started surfing</h4>
+        <div class="tlcontainer tlA">
+          <div class="content Alt A">
+            <h4>Got the surfing bug</h4>
 
             <h6>2021</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -118,8 +129,8 @@
 
         
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -138,16 +149,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Picked up guitar</h4>
 
             <h6>2020</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -170,16 +181,16 @@
             </p>
           </div>
         </div>
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Started bouldering</h4>
 
             <h6>2019</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -198,8 +209,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content A">
+        <div class="tlcontainer tlB">
+          <div class="content B">
             <div class="clickHere">
               <font-awesome-icon
                 :icon="['fa', 'hand-pointer']"
@@ -222,8 +233,8 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content B">
+        <div class="tlcontainer tlA">
+          <div class="content A">
             <h4>Materials Science Intern</h4>
             <div class="clickHere">
               <font-awesome-icon
@@ -242,16 +253,16 @@
           </div>
         </div>
 
-        <div class="tlcontainer tlA">
-          <div class="content Alt A">
+        <div class="tlcontainer tlB">
+          <div class="content Alt B">
             <h4>Began playing piano</h4>
 
             <h6>2016</h6>
           </div>
         </div>
 
-        <div class="tlcontainer tlB">
-          <div class="content Alt B">
+        <div class="tlcontainer tlA">
+          <div class="content Alt A">
             <h4>Started learning Chinese</h4>
 
             <h6>2012</h6>
