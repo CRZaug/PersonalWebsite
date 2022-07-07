@@ -11,7 +11,7 @@
           <br />
           <br />Want to know more about my experience? Check out my
           <a
-            href="/Camille_Zaug_Resume_2021.pdf"
+            href="/Camille_Zaug_Resume.pdf"
             target = "_blank"
           >resume!</a>
         </p>
