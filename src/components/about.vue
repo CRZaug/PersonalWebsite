@@ -10,7 +10,7 @@
 
             
             <div class = "aboutA">
-                <div class = "icon"><font-awesome-icon icon = "robot"  size = "2x" :style="{ color: '#4e323d' }"/></div>
+                <div class = "icon"><font-awesome-icon icon = "code"  size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> <b>DevOps Data Scientist </b> 
                 <br>
                  Ford Motor Company</p>
@@ -31,7 +31,7 @@
             <div class = "aboutA">
                 <div class = "icon"><font-awesome-icon icon = "seedling"  size = "2x" :style="{ color: '#4e323d' }"/></div>
                 <p> 
-                    <b>Dabbling Hobbyist</b> <br>Constantly trying new activities for joy</p>
+                    <b>Dabbling Hobbyist</b> <br>Constantly trying new activities for the joy of learning</p>
             </div>
                 
             
@@ -54,7 +54,7 @@
             </div>
             <div class ="bullet">
                 <font-awesome-icon icon = "mouse" size = "2x" :style="{ color: '#4e323d' }"/>
-               <h6>  Computer science</h6>
+               <h6>Computer science</h6>
             </div>
             <div class ="bullet">
                 <font-awesome-icon icon = "language" size = "2x" :style="{ color: '#4e323d' }"/>
@@ -63,8 +63,8 @@
             
             
             <div class ="bullet">
-                <font-awesome-icon icon = "chalkboard-teacher" size = "2x" :style="{ color: '#4e323d' }"/> 
-                <h6>Equitable education</h6>
+                <font-awesome-icon icon = "robot" size = "2x" :style="{ color: '#4e323d' }"/> 
+                <h6>Machine Learning Operations</h6>
             </div>
             </div>
             <br>
